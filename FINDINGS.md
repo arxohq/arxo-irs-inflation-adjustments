@@ -151,9 +151,12 @@ September 11, 2025):
 **B3. Missing October 2025 C-CPI-U value.**
 - **Fact.** BLS could not collect October 2025 survey data during the lapse in
   appropriations and published no all-items C-CPI-U value (SUUR0000SA0) for that month.
-  According to its FAQ, final C-CPI-U estimates for October–December 2025 are scheduled
-  for November 10, 2026. That is after the September 11, 2026 release of the initial August
-  2026 value, which §1(f)(6)(A) fixes for the 2027 adjustments.
+  BLS has stated that the final October 2025 C-CPI-U will not be published either, for lack
+  of both price and expenditure data
+  ([BLS](https://www.bls.gov/cpi/additional-resources/handling-missing-2025-ce-data.htm)).
+  Final values for November and December 2025 are scheduled with the October 2026 indexes
+  (November 10, 2026), after the September 11, 2026 release of the initial August 2026
+  value, which §1(f)(6)(A) fixes for the 2027 adjustments.
 - **Effect on 2027.** In our 307-row dataset for 2027 (the 295-row dataset plus 12
   additional rows for amounts first indexed under P.L. 119-21):
   - 163 vary across missing-month treatments under at least one reading.
@@ -216,7 +219,25 @@ The $25 and $50 guidelines of Rev. Proc. 90-12 are published as 5× and 10× of 
   - head-of-household 24% bracket ceiling: $201,775 → **$201,750**;
   - low-income housing credit ceiling: $3.05 / $3,530,000 → **$3.416 / $3,953,600**.
 
-## F. Reproduction
+## F. How open-source tax models handle these figures
+
+- **Tax-Calculator** (PSLmodels) and **PolicyEngine-US** both hold $24,150 for the 2026
+  head-of-household standard deduction, taken from Rev. Proc. 2025-32.
+- Asked to document its convention
+  ([issue #3191](https://github.com/PSLmodels/Tax-Calculator/issues/3191), October 21,
+  2026), Martin Holmer of Tax-Calculator described it:
+  - each November the new revenue procedure supplies the indexed values;
+  - early the following year they are checked against the IRS forms;
+  - the model stays consistent with other US income tax simulation models.
+- PolicyEngine-US has not yet responded
+  ([issue #10348](https://github.com/PolicyEngine/policyengine-us/issues/10348)).
+- Following the published figures is a reasonable choice for a model that reproduces what
+  the IRS administers. It also means the check compares one IRS document with another: the
+  forms take their figures from the revenue procedure, so a difference between the statute
+  and the published figure cannot appear there. A check against the statutory text is a
+  separate step; this package provides it.
+
+## G. Reproduction
 
 The package contains:
 - the statute texts used, with SHA-256;
