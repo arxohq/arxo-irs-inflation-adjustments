@@ -1,0 +1,1282 @@
+[
+ {
+  "item": "4.13",
+  "id": "pipeline_rig_hourly",
+  "label": "Pipeline rig-related expenses deemed substantiated, per hour (no fuel provided)",
+  "irs_value": "23",
+  "kind": "not_code_indexed",
+  "base_amount": "13",
+  "base_amount_cite": "Rev. Proc. 2002-41, A-8",
+  "index_cite": "Rev. Proc. 2002-41 Q&A 14 as modified by Rev. Proc. 2006-53 §2.04 (§1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "2002",
+  "rounding": {
+   "multiple": "1",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Календарный год 2026 (Rev. Proc. 2025-32 §5.03). Тот же COLA, что у ставки с топливом.",
+  "quotes": [
+   "Rev. Proc. 2002-41, A-8 (2002-23 I.R.B. 1098): \"If an eligible employer either provides fuel or separately reimburses fuel expenses, expenses of up to $8 per hour for welding rigs or mechanics rigs may be deemed substantiated ... If an eligible employer does not provide fuel or separately reimburse fuel expenses, rig-related expenses of up to $13 per hour for welding or mechanics rigs may be deemed substantiated\"",
+   "Rev. Proc. 2006-53 §2.04 (2006-48 I.R.B. 996), Q&A 14 of Rev. Proc. 2002-41 modified to read: \"A-14. Yes. For calendar years after 2006, the hourly rate will be adjusted annually for inflation under § 1(f)(3), except that the base year for such adjustment will be calendar year 2002 and any adjustment will be rounded to the nearest dollar. Any adjustment to the rates provided in this revenue procedure will be published annually.\"",
+   "Original A-14 (2002): \"For calendar years after 2003, the hourly rate will be adjusted annually for inflation under § 1(f)(3), except that the base year for such adjustment will be calendar year 2002 and no adjustment will be made unless the increase is at least one dollar. Any adjustment will be rounded to the nearest dollar.\""
+  ],
+  "source_files": [
+   "https://www.irs.gov/pub/irs-irbs/irb02-23.pdf (Rev. Proc. 2002-41)",
+   "https://www.irs.gov/pub/irs-irbs/irb06-48.pdf (Rev. Proc. 2006-53 §2.04, §3.10, §4)",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Индексация задана не Кодексом, а Q&A 14 Rev. Proc. 2002-41 в редакции Rev. Proc. 2006-53. Ссылка на § 1(f)(3) сделана до TCJA: после TCJA база 2002 < 2016, поэтому знаменатель = CPI(2002) × C-CPI-U(2016)/CPI(2016) (§1(f)(3)(A)(ii)+(B)); прямого правила подстановки в A-14 нет — это чтение по аналогии со статьями Кодекса. «any adjustment will be rounded to the nearest dollar» — неясно, округляется прирост или ставка; при целой базе результат одинаков. Порог «не менее $1» из исходной A-14 в редакции 2006-53 исключён. Правка Rev. Proc. 2014-61 (IRB 2014-47) Q&A 14 не меняет — там только ставки 2015 ($17/$11). Rev. Proc. 2025-32 §5.03: правило календарного года."
+ },
+ {
+  "item": "4.13",
+  "id": "pipeline_rig_hourly_fuel_provided",
+  "label": "Pipeline rig-related expenses deemed substantiated, per hour (employer provides/reimburses fuel)",
+  "irs_value": "14",
+  "kind": "not_code_indexed",
+  "base_amount": "8",
+  "base_amount_cite": "Rev. Proc. 2002-41, A-8",
+  "index_cite": "Rev. Proc. 2002-41 Q&A 14 as modified by Rev. Proc. 2006-53 §2.04 (§1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "2002",
+  "rounding": {
+   "multiple": "1",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Календарный год 2026 (Rev. Proc. 2025-32 §5.03).",
+  "quotes": [
+   "Rev. Proc. 2002-41, A-8 (2002-23 I.R.B. 1098): \"If an eligible employer either provides fuel or separately reimburses fuel expenses, expenses of up to $8 per hour for welding rigs or mechanics rigs may be deemed substantiated ... If an eligible employer does not provide fuel or separately reimburse fuel expenses, rig-related expenses of up to $13 per hour for welding or mechanics rigs may be deemed substantiated\"",
+   "Rev. Proc. 2006-53 §2.04 (2006-48 I.R.B. 996), Q&A 14 of Rev. Proc. 2002-41 modified to read: \"A-14. Yes. For calendar years after 2006, the hourly rate will be adjusted annually for inflation under § 1(f)(3), except that the base year for such adjustment will be calendar year 2002 and any adjustment will be rounded to the nearest dollar. Any adjustment to the rates provided in this revenue procedure will be published annually.\""
+  ],
+  "source_files": [
+   "https://www.irs.gov/pub/irs-irbs/irb02-23.pdf (Rev. Proc. 2002-41)",
+   "https://www.irs.gov/pub/irs-irbs/irb06-48.pdf (Rev. Proc. 2006-53 §2.04, §3.10, §4)",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Индексация задана не Кодексом, а Q&A 14 Rev. Proc. 2002-41 в редакции Rev. Proc. 2006-53. Ссылка на § 1(f)(3) сделана до TCJA: после TCJA база 2002 < 2016, поэтому знаменатель = CPI(2002) × C-CPI-U(2016)/CPI(2016) (§1(f)(3)(A)(ii)+(B)); прямого правила подстановки в A-14 нет — это чтение по аналогии со статьями Кодекса. «any adjustment will be rounded to the nearest dollar» — неясно, округляется прирост или ставка; при целой базе результат одинаков. Порог «не менее $1» из исходной A-14 в редакции 2006-53 исключён. Правка Rev. Proc. 2014-61 (IRB 2014-47) Q&A 14 не меняет — там только ставки 2015 ($17/$11). Rev. Proc. 2025-32 §5.03: правило календарного года."
+ },
+ {
+  "item": "4.27",
+  "id": "ltc_premium_age_40_or_less",
+  "label": "Eligible LTC premium limit, age 40 or less",
+  "irs_value": "500",
+  "kind": "indexed",
+  "base_amount": "200",
+  "base_amount_cite": "§213(d)(10)(A) table",
+  "index_cite": "§213(d)(10)(B)(i)-(ii) (medical care cost adjustment, not §1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "1996-08 (medical care component, CPI-U, August 1996, × §1(f)(3)(B))",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "НЕ §1(f)(3) COLA. Индекс — «medical care cost adjustment» за календарный год 2026 (налоговые годы, начинающиеся в 2026): числитель = медицинский компонент C-CPI-U за АВГУСТ 2025 (одно месячное значение, не среднее 12 месяцев); знаменатель = медицинский компонент CPI-U за АВГУСТ 1996 × [C-CPI-U(2016)/CPI-U(2016)] — множитель §1(f)(3)(B) берётся по ВСЕМ статьям и по средним за 12 месяцев до 31 августа 2016 (§1(f)(4), §1(f)(6)(B)). Округляется прирост до ближайших $10. Каждая из пяти сумм индексируется отдельно от своей базы.",
+  "quotes": [
+   "§213(d)(10)(B)(i): \"In the case of any taxable year beginning in a calendar year after 1997, each dollar amount contained in subparagraph (A) shall be increased by the medical care cost adjustment of such amount for such calendar year. If any increase determined under the preceding sentence is not a multiple of $10, such increase shall be rounded to the nearest multiple of $10.\"",
+   "§213(d)(10)(B)(ii): \"the medical care cost adjustment for any calendar year is the percentage (if any) by which— (I) the medical care component of the C-CPI-U (as defined in section 1(f)(6)) for August of the preceding calendar year, exceeds (II) such component of the CPI (as defined in section 1(f)(4)) for August of 1996, multiplied by the amount determined under section 1(f)(3)(B). The Secretary shall, in consultation with the Secretary of Health and Human Services, prescribe an adjustment which the Secretary determines is more appropriate for purposes of this paragraph than the adjustment described in the preceding sentence, and the adjustment so prescribed shall apply in lieu of the adjustment described in the preceding sentence.\"",
+   "§1(f)(3)(B): \"The amount determined under this clause is the amount obtained by dividing— (i) the C-CPI-U for calendar year 2016, by (ii) the CPI for calendar year 2016.\"",
+   "Amendment note, 2017 (P.L. 115-97 §11002(d)(7)), prior text: \"(I) the medical care component of the Consumer Price Index (as defined in section 1(f)(5)) for August of the preceding calendar year, exceeds \"(II) such component for August of 1996.\""
+  ],
+  "source_files": [
+   "usc/213.txt",
+   "usc/1.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "1) Поручение называет индекс «медицинский компонент CPI, не C-CPI-U»; текст Кодекса после TCJA (P.L. 115-97 §11002(d)(7)) прямо говорит «medical care component of the C-CPI-U» в числителе; CPI-U (не цепной) остаётся только в базе августа 1996, умноженной на коэффициент сцепки §1(f)(3)(B). До 2018 года оба значения были по CPI-U. 2) Последнее предложение (ii) обязывает Secretary предписать «более подходящую» поправку, которая применяется вместо описанной; опубликована ли такая поправка — не установлено; Rev. Proc. метод не раскрывает. 3) Правило «latest values so published» §1(f)(6)(A) сформулировано для C-CPI-U; применимо ли оно к его медицинскому компоненту (значения C-CPI-U пересматриваются ~10–12 мес.) — текст прямо не говорит. 4) Правило разрыва при приросте, кратном $5, не задано. Данные медицинского компонента не искались (по поручению)."
+ },
+ {
+  "item": "4.27",
+  "id": "ltc_premium_age_41_to_50",
+  "label": "Eligible LTC premium limit, age >40 to 50",
+  "irs_value": "930",
+  "kind": "indexed",
+  "base_amount": "375",
+  "base_amount_cite": "§213(d)(10)(A) table",
+  "index_cite": "§213(d)(10)(B)(i)-(ii) (medical care cost adjustment, not §1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "1996-08 (medical care component, CPI-U, August 1996, × §1(f)(3)(B))",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "НЕ §1(f)(3) COLA. Индекс — «medical care cost adjustment» за календарный год 2026 (налоговые годы, начинающиеся в 2026): числитель = медицинский компонент C-CPI-U за АВГУСТ 2025 (одно месячное значение, не среднее 12 месяцев); знаменатель = медицинский компонент CPI-U за АВГУСТ 1996 × [C-CPI-U(2016)/CPI-U(2016)] — множитель §1(f)(3)(B) берётся по ВСЕМ статьям и по средним за 12 месяцев до 31 августа 2016 (§1(f)(4), §1(f)(6)(B)). Округляется прирост до ближайших $10. Каждая из пяти сумм индексируется отдельно от своей базы.",
+  "quotes": [
+   "§213(d)(10)(B)(i): \"In the case of any taxable year beginning in a calendar year after 1997, each dollar amount contained in subparagraph (A) shall be increased by the medical care cost adjustment of such amount for such calendar year. If any increase determined under the preceding sentence is not a multiple of $10, such increase shall be rounded to the nearest multiple of $10.\"",
+   "§213(d)(10)(B)(ii): \"the medical care cost adjustment for any calendar year is the percentage (if any) by which— (I) the medical care component of the C-CPI-U (as defined in section 1(f)(6)) for August of the preceding calendar year, exceeds (II) such component of the CPI (as defined in section 1(f)(4)) for August of 1996, multiplied by the amount determined under section 1(f)(3)(B). The Secretary shall, in consultation with the Secretary of Health and Human Services, prescribe an adjustment which the Secretary determines is more appropriate for purposes of this paragraph than the adjustment described in the preceding sentence, and the adjustment so prescribed shall apply in lieu of the adjustment described in the preceding sentence.\"",
+   "§1(f)(3)(B): \"The amount determined under this clause is the amount obtained by dividing— (i) the C-CPI-U for calendar year 2016, by (ii) the CPI for calendar year 2016.\"",
+   "Amendment note, 2017 (P.L. 115-97 §11002(d)(7)), prior text: \"(I) the medical care component of the Consumer Price Index (as defined in section 1(f)(5)) for August of the preceding calendar year, exceeds \"(II) such component for August of 1996.\""
+  ],
+  "source_files": [
+   "usc/213.txt",
+   "usc/1.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "1) Поручение называет индекс «медицинский компонент CPI, не C-CPI-U»; текст Кодекса после TCJA (P.L. 115-97 §11002(d)(7)) прямо говорит «medical care component of the C-CPI-U» в числителе; CPI-U (не цепной) остаётся только в базе августа 1996, умноженной на коэффициент сцепки §1(f)(3)(B). До 2018 года оба значения были по CPI-U. 2) Последнее предложение (ii) обязывает Secretary предписать «более подходящую» поправку, которая применяется вместо описанной; опубликована ли такая поправка — не установлено; Rev. Proc. метод не раскрывает. 3) Правило «latest values so published» §1(f)(6)(A) сформулировано для C-CPI-U; применимо ли оно к его медицинскому компоненту (значения C-CPI-U пересматриваются ~10–12 мес.) — текст прямо не говорит. 4) Правило разрыва при приросте, кратном $5, не задано. Данные медицинского компонента не искались (по поручению)."
+ },
+ {
+  "item": "4.27",
+  "id": "ltc_premium_age_51_to_60",
+  "label": "Eligible LTC premium limit, age >50 to 60",
+  "irs_value": "1860",
+  "kind": "indexed",
+  "base_amount": "750",
+  "base_amount_cite": "§213(d)(10)(A) table",
+  "index_cite": "§213(d)(10)(B)(i)-(ii) (medical care cost adjustment, not §1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "1996-08 (medical care component, CPI-U, August 1996, × §1(f)(3)(B))",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "НЕ §1(f)(3) COLA. Индекс — «medical care cost adjustment» за календарный год 2026 (налоговые годы, начинающиеся в 2026): числитель = медицинский компонент C-CPI-U за АВГУСТ 2025 (одно месячное значение, не среднее 12 месяцев); знаменатель = медицинский компонент CPI-U за АВГУСТ 1996 × [C-CPI-U(2016)/CPI-U(2016)] — множитель §1(f)(3)(B) берётся по ВСЕМ статьям и по средним за 12 месяцев до 31 августа 2016 (§1(f)(4), §1(f)(6)(B)). Округляется прирост до ближайших $10. Каждая из пяти сумм индексируется отдельно от своей базы.",
+  "quotes": [
+   "§213(d)(10)(B)(i): \"In the case of any taxable year beginning in a calendar year after 1997, each dollar amount contained in subparagraph (A) shall be increased by the medical care cost adjustment of such amount for such calendar year. If any increase determined under the preceding sentence is not a multiple of $10, such increase shall be rounded to the nearest multiple of $10.\"",
+   "§213(d)(10)(B)(ii): \"the medical care cost adjustment for any calendar year is the percentage (if any) by which— (I) the medical care component of the C-CPI-U (as defined in section 1(f)(6)) for August of the preceding calendar year, exceeds (II) such component of the CPI (as defined in section 1(f)(4)) for August of 1996, multiplied by the amount determined under section 1(f)(3)(B). The Secretary shall, in consultation with the Secretary of Health and Human Services, prescribe an adjustment which the Secretary determines is more appropriate for purposes of this paragraph than the adjustment described in the preceding sentence, and the adjustment so prescribed shall apply in lieu of the adjustment described in the preceding sentence.\"",
+   "§1(f)(3)(B): \"The amount determined under this clause is the amount obtained by dividing— (i) the C-CPI-U for calendar year 2016, by (ii) the CPI for calendar year 2016.\"",
+   "Amendment note, 2017 (P.L. 115-97 §11002(d)(7)), prior text: \"(I) the medical care component of the Consumer Price Index (as defined in section 1(f)(5)) for August of the preceding calendar year, exceeds \"(II) such component for August of 1996.\""
+  ],
+  "source_files": [
+   "usc/213.txt",
+   "usc/1.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "1) Поручение называет индекс «медицинский компонент CPI, не C-CPI-U»; текст Кодекса после TCJA (P.L. 115-97 §11002(d)(7)) прямо говорит «medical care component of the C-CPI-U» в числителе; CPI-U (не цепной) остаётся только в базе августа 1996, умноженной на коэффициент сцепки §1(f)(3)(B). До 2018 года оба значения были по CPI-U. 2) Последнее предложение (ii) обязывает Secretary предписать «более подходящую» поправку, которая применяется вместо описанной; опубликована ли такая поправка — не установлено; Rev. Proc. метод не раскрывает. 3) Правило «latest values so published» §1(f)(6)(A) сформулировано для C-CPI-U; применимо ли оно к его медицинскому компоненту (значения C-CPI-U пересматриваются ~10–12 мес.) — текст прямо не говорит. 4) Правило разрыва при приросте, кратном $5, не задано. Данные медицинского компонента не искались (по поручению)."
+ },
+ {
+  "item": "4.27",
+  "id": "ltc_premium_age_61_to_70",
+  "label": "Eligible LTC premium limit, age >60 to 70",
+  "irs_value": "4960",
+  "kind": "indexed",
+  "base_amount": "2000",
+  "base_amount_cite": "§213(d)(10)(A) table",
+  "index_cite": "§213(d)(10)(B)(i)-(ii) (medical care cost adjustment, not §1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "1996-08 (medical care component, CPI-U, August 1996, × §1(f)(3)(B))",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "НЕ §1(f)(3) COLA. Индекс — «medical care cost adjustment» за календарный год 2026 (налоговые годы, начинающиеся в 2026): числитель = медицинский компонент C-CPI-U за АВГУСТ 2025 (одно месячное значение, не среднее 12 месяцев); знаменатель = медицинский компонент CPI-U за АВГУСТ 1996 × [C-CPI-U(2016)/CPI-U(2016)] — множитель §1(f)(3)(B) берётся по ВСЕМ статьям и по средним за 12 месяцев до 31 августа 2016 (§1(f)(4), §1(f)(6)(B)). Округляется прирост до ближайших $10. Каждая из пяти сумм индексируется отдельно от своей базы.",
+  "quotes": [
+   "§213(d)(10)(B)(i): \"In the case of any taxable year beginning in a calendar year after 1997, each dollar amount contained in subparagraph (A) shall be increased by the medical care cost adjustment of such amount for such calendar year. If any increase determined under the preceding sentence is not a multiple of $10, such increase shall be rounded to the nearest multiple of $10.\"",
+   "§213(d)(10)(B)(ii): \"the medical care cost adjustment for any calendar year is the percentage (if any) by which— (I) the medical care component of the C-CPI-U (as defined in section 1(f)(6)) for August of the preceding calendar year, exceeds (II) such component of the CPI (as defined in section 1(f)(4)) for August of 1996, multiplied by the amount determined under section 1(f)(3)(B). The Secretary shall, in consultation with the Secretary of Health and Human Services, prescribe an adjustment which the Secretary determines is more appropriate for purposes of this paragraph than the adjustment described in the preceding sentence, and the adjustment so prescribed shall apply in lieu of the adjustment described in the preceding sentence.\"",
+   "§1(f)(3)(B): \"The amount determined under this clause is the amount obtained by dividing— (i) the C-CPI-U for calendar year 2016, by (ii) the CPI for calendar year 2016.\"",
+   "Amendment note, 2017 (P.L. 115-97 §11002(d)(7)), prior text: \"(I) the medical care component of the Consumer Price Index (as defined in section 1(f)(5)) for August of the preceding calendar year, exceeds \"(II) such component for August of 1996.\""
+  ],
+  "source_files": [
+   "usc/213.txt",
+   "usc/1.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "1) Поручение называет индекс «медицинский компонент CPI, не C-CPI-U»; текст Кодекса после TCJA (P.L. 115-97 §11002(d)(7)) прямо говорит «medical care component of the C-CPI-U» в числителе; CPI-U (не цепной) остаётся только в базе августа 1996, умноженной на коэффициент сцепки §1(f)(3)(B). До 2018 года оба значения были по CPI-U. 2) Последнее предложение (ii) обязывает Secretary предписать «более подходящую» поправку, которая применяется вместо описанной; опубликована ли такая поправка — не установлено; Rev. Proc. метод не раскрывает. 3) Правило «latest values so published» §1(f)(6)(A) сформулировано для C-CPI-U; применимо ли оно к его медицинскому компоненту (значения C-CPI-U пересматриваются ~10–12 мес.) — текст прямо не говорит. 4) Правило разрыва при приросте, кратном $5, не задано. Данные медицинского компонента не искались (по поручению)."
+ },
+ {
+  "item": "4.27",
+  "id": "ltc_premium_age_over_70",
+  "label": "Eligible LTC premium limit, age over 70",
+  "irs_value": "6200",
+  "kind": "indexed",
+  "base_amount": "2500",
+  "base_amount_cite": "§213(d)(10)(A) table",
+  "index_cite": "§213(d)(10)(B)(i)-(ii) (medical care cost adjustment, not §1(f)(3))",
+  "cola_year": 2026,
+  "base_year": "1996-08 (medical care component, CPI-U, August 1996, × §1(f)(3)(B))",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "НЕ §1(f)(3) COLA. Индекс — «medical care cost adjustment» за календарный год 2026 (налоговые годы, начинающиеся в 2026): числитель = медицинский компонент C-CPI-U за АВГУСТ 2025 (одно месячное значение, не среднее 12 месяцев); знаменатель = медицинский компонент CPI-U за АВГУСТ 1996 × [C-CPI-U(2016)/CPI-U(2016)] — множитель §1(f)(3)(B) берётся по ВСЕМ статьям и по средним за 12 месяцев до 31 августа 2016 (§1(f)(4), §1(f)(6)(B)). Округляется прирост до ближайших $10. Каждая из пяти сумм индексируется отдельно от своей базы.",
+  "quotes": [
+   "§213(d)(10)(B)(i): \"In the case of any taxable year beginning in a calendar year after 1997, each dollar amount contained in subparagraph (A) shall be increased by the medical care cost adjustment of such amount for such calendar year. If any increase determined under the preceding sentence is not a multiple of $10, such increase shall be rounded to the nearest multiple of $10.\"",
+   "§213(d)(10)(B)(ii): \"the medical care cost adjustment for any calendar year is the percentage (if any) by which— (I) the medical care component of the C-CPI-U (as defined in section 1(f)(6)) for August of the preceding calendar year, exceeds (II) such component of the CPI (as defined in section 1(f)(4)) for August of 1996, multiplied by the amount determined under section 1(f)(3)(B). The Secretary shall, in consultation with the Secretary of Health and Human Services, prescribe an adjustment which the Secretary determines is more appropriate for purposes of this paragraph than the adjustment described in the preceding sentence, and the adjustment so prescribed shall apply in lieu of the adjustment described in the preceding sentence.\"",
+   "§1(f)(3)(B): \"The amount determined under this clause is the amount obtained by dividing— (i) the C-CPI-U for calendar year 2016, by (ii) the CPI for calendar year 2016.\"",
+   "Amendment note, 2017 (P.L. 115-97 §11002(d)(7)), prior text: \"(I) the medical care component of the Consumer Price Index (as defined in section 1(f)(5)) for August of the preceding calendar year, exceeds \"(II) such component for August of 1996.\""
+  ],
+  "source_files": [
+   "usc/213.txt",
+   "usc/1.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "1) Поручение называет индекс «медицинский компонент CPI, не C-CPI-U»; текст Кодекса после TCJA (P.L. 115-97 §11002(d)(7)) прямо говорит «medical care component of the C-CPI-U» в числителе; CPI-U (не цепной) остаётся только в базе августа 1996, умноженной на коэффициент сцепки §1(f)(3)(B). До 2018 года оба значения были по CPI-U. 2) Последнее предложение (ii) обязывает Secretary предписать «более подходящую» поправку, которая применяется вместо описанной; опубликована ли такая поправка — не установлено; Rev. Proc. метод не раскрывает. 3) Правило «latest values so published» §1(f)(6)(A) сформулировано для C-CPI-U; применимо ли оно к его медицинскому компоненту (значения C-CPI-U пересматриваются ~10–12 мес.) — текст прямо не говорит. 4) Правило разрыва при приросте, кратном $5, не задано. Данные медицинского компонента не искались (по поручению)."
+ },
+ {
+  "item": "4.28",
+  "id": "msa_hdhp_self_deductible_min",
+  "label": "Archer MSA HDHP self-only: minimum annual deductible",
+  "irs_value": "2900",
+  "kind": "indexed",
+  "base_amount": "1500",
+  "base_amount_cite": "§220(c)(2)(A)(i)",
+  "index_cite": "§220(g)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Каждая из шести сумм индексируется отдельно. Правило разрыва (прирост, кратный $25) в тексте не задано. P.L. 119-21 §220 не меняет.",
+  "quotes": [
+   "§220(g): \"In the case of any taxable year beginning in a calendar year after 1998, each dollar amount in subsection (c)(2) shall be increased by an amount equal to— (1) such dollar amount, multiplied by (2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50.\"",
+   "§220(c)(2)(A): \"(i) in the case of self-only coverage, which has an annual deductible which is not less than $1,500 and not more than $2,250, (ii) in the case of family coverage, which has an annual deductible which is not less than $3,000 and not more than $4,500, and (iii) the annual out-of-pocket expenses ... does not exceed— (I) $3,000 for self-only coverage, and (II) $5,500 for family coverage.\""
+  ],
+  "source_files": [
+   "usc/220.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Случай «ровно посередине» ($25) для nearest не урегулирован."
+ },
+ {
+  "item": "4.28",
+  "id": "msa_hdhp_self_deductible_max",
+  "label": "Archer MSA HDHP self-only: maximum annual deductible",
+  "irs_value": "4400",
+  "kind": "indexed",
+  "base_amount": "2250",
+  "base_amount_cite": "§220(c)(2)(A)(i)",
+  "index_cite": "§220(g)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Каждая из шести сумм индексируется отдельно. Правило разрыва (прирост, кратный $25) в тексте не задано. P.L. 119-21 §220 не меняет.",
+  "quotes": [
+   "§220(g): \"In the case of any taxable year beginning in a calendar year after 1998, each dollar amount in subsection (c)(2) shall be increased by an amount equal to— (1) such dollar amount, multiplied by (2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50.\"",
+   "§220(c)(2)(A): \"(i) in the case of self-only coverage, which has an annual deductible which is not less than $1,500 and not more than $2,250, (ii) in the case of family coverage, which has an annual deductible which is not less than $3,000 and not more than $4,500, and (iii) the annual out-of-pocket expenses ... does not exceed— (I) $3,000 for self-only coverage, and (II) $5,500 for family coverage.\""
+  ],
+  "source_files": [
+   "usc/220.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Случай «ровно посередине» ($25) для nearest не урегулирован."
+ },
+ {
+  "item": "4.28",
+  "id": "msa_hdhp_self_oop_max",
+  "label": "Archer MSA HDHP self-only: out-of-pocket maximum",
+  "irs_value": "5850",
+  "kind": "indexed",
+  "base_amount": "3000",
+  "base_amount_cite": "§220(c)(2)(A)(iii)(I)",
+  "index_cite": "§220(g)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Каждая из шести сумм индексируется отдельно. Правило разрыва (прирост, кратный $25) в тексте не задано. P.L. 119-21 §220 не меняет.",
+  "quotes": [
+   "§220(g): \"In the case of any taxable year beginning in a calendar year after 1998, each dollar amount in subsection (c)(2) shall be increased by an amount equal to— (1) such dollar amount, multiplied by (2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50.\"",
+   "§220(c)(2)(A): \"(i) in the case of self-only coverage, which has an annual deductible which is not less than $1,500 and not more than $2,250, (ii) in the case of family coverage, which has an annual deductible which is not less than $3,000 and not more than $4,500, and (iii) the annual out-of-pocket expenses ... does not exceed— (I) $3,000 for self-only coverage, and (II) $5,500 for family coverage.\""
+  ],
+  "source_files": [
+   "usc/220.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Случай «ровно посередине» ($25) для nearest не урегулирован."
+ },
+ {
+  "item": "4.28",
+  "id": "msa_hdhp_family_deductible_min",
+  "label": "Archer MSA HDHP family: minimum annual deductible",
+  "irs_value": "5850",
+  "kind": "indexed",
+  "base_amount": "3000",
+  "base_amount_cite": "§220(c)(2)(A)(ii)",
+  "index_cite": "§220(g)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Каждая из шести сумм индексируется отдельно. Правило разрыва (прирост, кратный $25) в тексте не задано. P.L. 119-21 §220 не меняет.",
+  "quotes": [
+   "§220(g): \"In the case of any taxable year beginning in a calendar year after 1998, each dollar amount in subsection (c)(2) shall be increased by an amount equal to— (1) such dollar amount, multiplied by (2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50.\"",
+   "§220(c)(2)(A): \"(i) in the case of self-only coverage, which has an annual deductible which is not less than $1,500 and not more than $2,250, (ii) in the case of family coverage, which has an annual deductible which is not less than $3,000 and not more than $4,500, and (iii) the annual out-of-pocket expenses ... does not exceed— (I) $3,000 for self-only coverage, and (II) $5,500 for family coverage.\""
+  ],
+  "source_files": [
+   "usc/220.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Случай «ровно посередине» ($25) для nearest не урегулирован."
+ },
+ {
+  "item": "4.28",
+  "id": "msa_hdhp_family_deductible_max",
+  "label": "Archer MSA HDHP family: maximum annual deductible",
+  "irs_value": "8750",
+  "kind": "indexed",
+  "base_amount": "4500",
+  "base_amount_cite": "§220(c)(2)(A)(ii)",
+  "index_cite": "§220(g)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Каждая из шести сумм индексируется отдельно. Правило разрыва (прирост, кратный $25) в тексте не задано. P.L. 119-21 §220 не меняет.",
+  "quotes": [
+   "§220(g): \"In the case of any taxable year beginning in a calendar year after 1998, each dollar amount in subsection (c)(2) shall be increased by an amount equal to— (1) such dollar amount, multiplied by (2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50.\"",
+   "§220(c)(2)(A): \"(i) in the case of self-only coverage, which has an annual deductible which is not less than $1,500 and not more than $2,250, (ii) in the case of family coverage, which has an annual deductible which is not less than $3,000 and not more than $4,500, and (iii) the annual out-of-pocket expenses ... does not exceed— (I) $3,000 for self-only coverage, and (II) $5,500 for family coverage.\""
+  ],
+  "source_files": [
+   "usc/220.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Случай «ровно посередине» ($25) для nearest не урегулирован."
+ },
+ {
+  "item": "4.28",
+  "id": "msa_hdhp_family_oop_max",
+  "label": "Archer MSA HDHP family: out-of-pocket maximum",
+  "irs_value": "10700",
+  "kind": "indexed",
+  "base_amount": "5500",
+  "base_amount_cite": "§220(c)(2)(A)(iii)(II)",
+  "index_cite": "§220(g)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Каждая из шести сумм индексируется отдельно. Правило разрыва (прирост, кратный $25) в тексте не задано. P.L. 119-21 §220 не меняет.",
+  "quotes": [
+   "§220(g): \"In the case of any taxable year beginning in a calendar year after 1998, each dollar amount in subsection (c)(2) shall be increased by an amount equal to— (1) such dollar amount, multiplied by (2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50.\"",
+   "§220(c)(2)(A): \"(i) in the case of self-only coverage, which has an annual deductible which is not less than $1,500 and not more than $2,250, (ii) in the case of family coverage, which has an annual deductible which is not less than $3,000 and not more than $4,500, and (iii) the annual out-of-pocket expenses ... does not exceed— (I) $3,000 for self-only coverage, and (II) $5,500 for family coverage.\""
+  ],
+  "source_files": [
+   "usc/220.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Случай «ровно посередине» ($25) для nearest не урегулирован."
+ },
+ {
+  "item": "4.29",
+  "id": "student_loan_interest_max_deduction",
+  "label": "Student loan interest deduction maximum",
+  "irs_value": "2500",
+  "kind": "fixed_statutory",
+  "base_amount": "2500",
+  "base_amount_cite": "§221(b)(1)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Не индексируется: §221(f) индексирует только $50,000 и $100,000.",
+  "quotes": [
+   "§221(b)(1): \"the deduction allowed by subsection (a) for the taxable year shall not exceed $2,500.\"",
+   "§221(f): \"(1) In general In the case of a taxable year beginning after 2002, the $50,000 and $100,000 amounts in subsection (b)(2) shall each be increased by an amount equal to— (A) such dollar amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (2) Rounding If any amount as adjusted under paragraph (1) is not a multiple of $5,000, such amount shall be rounded to the next lowest multiple of $5,000.\""
+  ],
+  "source_files": [
+   "usc/221.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.29",
+  "id": "student_loan_interest_phaseout_start",
+  "label": "Student loan interest phaseout begins (MAGI), other than joint",
+  "irs_value": "85000",
+  "kind": "indexed",
+  "base_amount": "50000",
+  "base_amount_cite": "§221(b)(2)(B)(i)(II)",
+  "index_cite": "§221(f)(1)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "5000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Округляется вся скорректированная сумма вниз до $5,000.",
+  "quotes": [
+   "§221(b)(2)(B): \"(i) the excess of— (I) the taxpayer's modified adjusted gross income for such taxable year, over (II) $50,000 ($100,000 in the case of a joint return), bears to (ii) $15,000 ($30,000 in the case of a joint return).\"",
+   "§221(f): \"(1) In general In the case of a taxable year beginning after 2002, the $50,000 and $100,000 amounts in subsection (b)(2) shall each be increased by an amount equal to— (A) such dollar amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (2) Rounding If any amount as adjusted under paragraph (1) is not a multiple of $5,000, such amount shall be rounded to the next lowest multiple of $5,000.\""
+  ],
+  "source_files": [
+   "usc/221.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.29",
+  "id": "student_loan_interest_phaseout_start_joint",
+  "label": "Student loan interest phaseout begins (MAGI), joint return",
+  "irs_value": "175000",
+  "kind": "indexed",
+  "base_amount": "100000",
+  "base_amount_cite": "§221(b)(2)(B)(i)(II)",
+  "index_cite": "§221(f)(1)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "5000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Индексируется самостоятельно («shall each be increased»), а не как 2 × сумма для прочих; округление всей суммы вниз до $5,000.",
+  "quotes": [
+   "§221(b)(2)(B): \"(i) the excess of— (I) the taxpayer's modified adjusted gross income for such taxable year, over (II) $50,000 ($100,000 in the case of a joint return), bears to (ii) $15,000 ($30,000 in the case of a joint return).\"",
+   "§221(f): \"(1) In general In the case of a taxable year beginning after 2002, the $50,000 and $100,000 amounts in subsection (b)(2) shall each be increased by an amount equal to— (A) such dollar amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (2) Rounding If any amount as adjusted under paragraph (1) is not a multiple of $5,000, such amount shall be rounded to the next lowest multiple of $5,000.\""
+  ],
+  "source_files": [
+   "usc/221.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.29",
+  "id": "student_loan_interest_phaseout_end",
+  "label": "Student loan interest fully phased out (MAGI), other than joint",
+  "irs_value": "100000",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "§221(b)(2)(B)(ii)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "student_loan_interest_phaseout_start + 15000",
+  "special": "Ширина диапазона $15,000 (§221(b)(2)(B)(ii)) не индексируется; конец диапазона — следствие пропорции, сам Кодекс его числом не называет.",
+  "quotes": [
+   "§221(b)(2)(B): \"(i) the excess of— (I) the taxpayer's modified adjusted gross income for such taxable year, over (II) $50,000 ($100,000 in the case of a joint return), bears to (ii) $15,000 ($30,000 in the case of a joint return).\"",
+   "§221(f): \"(1) In general In the case of a taxable year beginning after 2002, the $50,000 and $100,000 amounts in subsection (b)(2) shall each be increased by an amount equal to— (A) such dollar amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (2) Rounding If any amount as adjusted under paragraph (1) is not a multiple of $5,000, such amount shall be rounded to the next lowest multiple of $5,000.\""
+  ],
+  "source_files": [
+   "usc/221.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.29",
+  "id": "student_loan_interest_phaseout_end_joint",
+  "label": "Student loan interest fully phased out (MAGI), joint return",
+  "irs_value": "205000",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "§221(b)(2)(B)(ii)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "student_loan_interest_phaseout_start_joint + 30000",
+  "special": "Ширина диапазона $30,000 для совместной декларации не индексируется.",
+  "quotes": [
+   "§221(b)(2)(B): \"(i) the excess of— (I) the taxpayer's modified adjusted gross income for such taxable year, over (II) $50,000 ($100,000 in the case of a joint return), bears to (ii) $15,000 ($30,000 in the case of a joint return).\"",
+   "§221(f): \"(1) In general In the case of a taxable year beginning after 2002, the $50,000 and $100,000 amounts in subsection (b)(2) shall each be increased by an amount equal to— (A) such dollar amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (2) Rounding If any amount as adjusted under paragraph (1) is not a multiple of $5,000, such amount shall be rounded to the next lowest multiple of $5,000.\""
+  ],
+  "source_files": [
+   "usc/221.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.30",
+  "id": "cash_method_gross_receipts_limit",
+  "label": "Gross receipts test, §448(c) (3-year average)",
+  "irs_value": "32000000",
+  "kind": "indexed",
+  "base_amount": "25000000",
+  "base_amount_cite": "§448(c)(1)",
+  "index_cite": "§448(c)(4)",
+  "cola_year": 2026,
+  "base_year": "2017",
+  "rounding": {
+   "multiple": "1000000",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Округляется вся сумма до ближайшего $1,000,000. P.L. 119-21 §448(c) не меняет (лишь ссылается на него в §45F(c)(4) с 5-летним периодом).",
+  "quotes": [
+   "§448(c)(1): \"... does not exceed $25,000,000.\"",
+   "§448(c)(4): \"In the case of any taxable year beginning after December 31, 2018, the dollar amount in paragraph (1) shall be increased by an amount equal to— (A) such dollar amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 2017\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any amount as increased under the preceding sentence is not a multiple of $1,000,000, such amount shall be rounded to the nearest multiple of $1,000,000.\""
+  ],
+  "source_files": [
+   "usc/448.txt",
+   "plaw-119-21.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Половина ($500,000) при nearest не урегулирована."
+ },
+ {
+  "item": "4.31",
+  "id": "excess_business_loss_threshold",
+  "label": "Excess business loss threshold",
+  "irs_value": "256000",
+  "kind": "indexed",
+  "base_amount": "250000",
+  "base_amount_cite": "§461(l)(3)(A)(ii)(II)",
+  "index_cite": "§461(l)(3)(C) as amended by P.L. 119-21 §70601(b)",
+  "cola_year": 2026,
+  "base_year": "2024",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Редакция 2026 года: база перенесена на 2024 (P.L. 119-21 §70601(b), для налоговых лет после 31.12.2025), поэтому COLA по §1(f)(3)(C) = C-CPI-U(2025)/C-CPI-U(2024) − 1. Округляется вся сумма до ближайших $1,000. В Rev. Proc. пункт назван §461(l)(3)(A)(ii)(II); правило индексации — (3)(C), не (3)(B).",
+  "quotes": [
+   "§461(l)(3)(A)(ii)(II): \"$250,000 (200 percent of such amount in the case of a joint return).\"",
+   "§461(l)(3)(C) (USCODE-2024): \"In the case of any taxable year beginning after December 31, 2018, the $250,000 amount in subparagraph (A)(ii)(II) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"2017\" for \"2016\" in subparagraph (A)(ii) thereof. If any amount as increased under the preceding sentence is not a multiple of $1,000, such amount shall be rounded to the nearest multiple of $1,000.\"",
+   "P.L. 119-21 §70601(b): \"Section 461(l)(3)(C) is amended — 139 STAT. 284 (1) in the matter preceding clause (i), by striking “ December 31, 2018 ” and inserting “ December 31, 2025 ”, and (2) in clause (ii), by striking “ 2017 ” and inserting “ 2024 ”.\" §70601(c)(2): \"The amendments made by subsection (b) shall apply to taxable years beginning after December 31, 2025.\""
+  ],
+  "source_files": [
+   "usc/461.txt",
+   "plaw-119-21.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Половина ($500) при nearest не урегулирована."
+ },
+ {
+  "item": "4.31",
+  "id": "excess_business_loss_threshold_joint",
+  "label": "Excess business loss threshold, joint return",
+  "irs_value": "512000",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "§461(l)(3)(A)(ii)(II)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "2 * excess_business_loss_threshold",
+  "special": "«200 percent of such amount» — 200% уже скорректированной (и округлённой) суммы; индексируется только «the $250,000 amount».",
+  "quotes": [
+   "§461(l)(3)(A)(ii)(II): \"$250,000 (200 percent of such amount in the case of a joint return).\"",
+   "§461(l)(3)(C) (USCODE-2024): \"In the case of any taxable year beginning after December 31, 2018, the $250,000 amount in subparagraph (A)(ii)(II) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"2017\" for \"2016\" in subparagraph (A)(ii) thereof. If any amount as increased under the preceding sentence is not a multiple of $1,000, such amount shall be rounded to the nearest multiple of $1,000.\""
+  ],
+  "source_files": [
+   "usc/461.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Альтернатива — индексировать $500,000 с отдельным округлением; текст говорит о «such amount», т. е. 2× индексированной суммы."
+ },
+ {
+  "item": "4.32",
+  "id": "ag_hort_dues_limit",
+  "label": "Agricultural/horticultural organization annual dues limit",
+  "irs_value": "212",
+  "kind": "indexed",
+  "base_amount": "100",
+  "base_amount_cite": "§512(d)(1)(B)",
+  "index_cite": "§512(d)(2)",
+  "cola_year": 2026,
+  "base_year": "1994",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Статья правила округления не содержит.",
+  "quotes": [
+   "§512(d)(1)(B): \"the amount of such required annual dues does not exceed $100,\"",
+   "§512(d)(2): \"In the case of any taxable year beginning in a calendar year after 1995, the $100 amount in paragraph (1) shall be increased by an amount equal to— (A) $100, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 1994\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\""
+  ],
+  "source_files": [
+   "usc/512.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Округления в статье нет, IRS публикует целые доллары ($212) — практика IRS (вниз или до ближайшего доллара) из текста не выводится; проверить обоими способами."
+ },
+ {
+  "item": "4.33(1)",
+  "id": "low_cost_article",
+  "label": "Low cost article, §513(h)(2)",
+  "irs_value": "13.90",
+  "kind": "indexed",
+  "base_amount": "5",
+  "base_amount_cite": "§513(h)(2)(A)",
+  "index_cite": "§513(h)(2)(C)",
+  "cola_year": 2026,
+  "base_year": "1987",
+  "rounding": {
+   "multiple": "0.10",
+   "mode": "none",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Статья округления не задаёт; IRS публикует кратно 10 центам.",
+  "quotes": [
+   "§513(h)(2)(A): \"The term \"low cost article\" means any article which has a cost not in excess of $5 to the organization\"",
+   "§513(h)(2)(C): \"In the case of any taxable year beginning in a calendar year after 1987, the $5 amount in subparagraph (A) shall be increased by an amount equal to— (i) $5, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 1987\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\""
+  ],
+  "source_files": [
+   "usc/513.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Правила округления нет ни в §513(h)(2)(C), ни в Rev. Proc. 92-102. Наблюдаемая практика IRS: low cost article — кратно $0.10 (1993 $6.20, 2025 $13.60, 2026 $13.90); направление (вниз/ближайшее) из текста не выводится."
+ },
+ {
+  "item": "4.33(2)",
+  "id": "insubstantial_benefit_5",
+  "label": "Rev. Proc. 90-12 $5 guideline (token items / low cost article)",
+  "irs_value": "13.90",
+  "kind": "derived",
+  "base_amount": "5",
+  "base_amount_cite": "Rev. Proc. 90-12 §3 (via §513(h)(2) low cost article)",
+  "index_cite": "§513(h)(2)(C) (через ссылку Rev. Proc. 90-12/92-49 на «low cost article»)",
+  "cola_year": 2026,
+  "base_year": "1987",
+  "rounding": {
+   "multiple": "0.10",
+   "mode": "none",
+   "applies_to": "amount"
+  },
+  "derived_formula": "= low_cost_article",
+  "special": "Ориентир $5 в Rev. Proc. 90-12/92-49 определён как предел «low cost article» §513(h)(2), т. е. равен ему.",
+  "quotes": [
+   "Rev. Proc. 92-102 §9.02: \"(1) The fair market value of all the benefits received is not more than 2- percent of the contribution, or $50 (the \"$50 benefit\" limitation), whichever is less; (2) The contribution is $25 (the \"$25 payment\" limitation) or more, and the only benefits received by the donor ... have a cost, in the aggregate, of not more than a \"low cost article\" under section 513 (h) (2) of the Code\"",
+   "Rev. Proc. 92-49 §2.01(c)(2): \"The cost (as opposed to fair market value) of all such items, in the aggregate, distributed by or on behalf of the organization to a single patron in a calendar year is within the limits established for “low cost articles” in section 513(h)(2) of the Code.\"",
+   "Rev. Proc. 92-102 §10.07: \"Rev. Proc. 90-12 provides for the adjustment of the \"low cost article\" and the \"$25 payment\" limitations in that revenue procedure as provided under section 513 (h) (2) (C) of the Code. The \"$50 benefit\" limitation in that revenue procedure is adjusted in the same manner.\""
+  ],
+  "source_files": [
+   "usc/513.txt",
+   "rp-2025-32.txt",
+   "https://www.irs.gov/pub/irs-tege/rp92_102.pdf (Rev. Proc. 92-102)",
+   "https://www.irs.gov/pub/irs-tege/rp92_49.pdf (Rev. Proc. 92-49)",
+   "Rev. Proc. 90-12 (1990-1 C.B. 471): на irs.gov не найден (https://www.irs.gov/pub/irs-tege/rp90_12.pdf — 404)"
+  ],
+  "doubts": "Правила округления нет ни в §513(h)(2)(C), ни в Rev. Proc. 92-102. Наблюдаемая практика IRS: low cost article — кратно $0.10 (1993 $6.20, 2025 $13.60, 2026 $13.90); направление (вниз/ближайшее) из текста не выводится."
+ },
+ {
+  "item": "4.33(2)",
+  "id": "insubstantial_benefit_25",
+  "label": "Rev. Proc. 90-12 $25 payment guideline",
+  "irs_value": "69.50",
+  "kind": "not_code_indexed",
+  "base_amount": "25",
+  "base_amount_cite": "Rev. Proc. 90-12 §3 (as described in Rev. Proc. 92-102 §9.02)",
+  "index_cite": "Rev. Proc. 90-12 (как описано в Rev. Proc. 92-102 §10.07): тем же способом, что §513(h)(2)(C)",
+  "cola_year": 2026,
+  "base_year": "1987",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Индексация — административная, тем же COLA с базой 1987, что и low cost article. Наблюдение: 1993 $31 = 5×$6.20; 2026 $69.50 = 5×$13.90 — выглядит как 5 × округлённого low cost article.",
+  "quotes": [
+   "Rev. Proc. 92-102 §9.02: \"(1) The fair market value of all the benefits received is not more than 2- percent of the contribution, or $50 (the \"$50 benefit\" limitation), whichever is less; (2) The contribution is $25 (the \"$25 payment\" limitation) or more, and the only benefits received by the donor ... have a cost, in the aggregate, of not more than a \"low cost article\" under section 513 (h) (2) of the Code\"",
+   "Rev. Proc. 92-102 §10.07: \"Rev. Proc. 90-12 provides for the adjustment of the \"low cost article\" and the \"$25 payment\" limitations in that revenue procedure as provided under section 513 (h) (2) (C) of the Code. The \"$50 benefit\" limitation in that revenue procedure is adjusted in the same manner.\"",
+   "Rev. Proc. 92-102 §12: \"Rev. Proc. 90-12, as amplified by Rev. Proc. 92-49, is modified to provide for the indexing of the \"$50 benefit\" limitation.\" §9.03: \"For tax years beginning in 1993, the \"$50 benefit\" limitation is $62, the \"$25 payment\" limitation is $31, and the \"low cost article\" limitation is $6.20.\""
+  ],
+  "source_files": [
+   "usc/513.txt",
+   "rp-2025-32.txt",
+   "https://www.irs.gov/pub/irs-tege/rp92_102.pdf (Rev. Proc. 92-102)",
+   "https://www.irs.gov/pub/irs-tege/rp92_49.pdf (Rev. Proc. 92-49)",
+   "Rev. Proc. 90-12 (1990-1 C.B. 471): на irs.gov не найден (https://www.irs.gov/pub/irs-tege/rp90_12.pdf — 404)"
+  ],
+  "doubts": "Текст Rev. Proc. 90-12 не получен (irs.gov 404); правило известно по пересказу в Rev. Proc. 92-102 §10.07. Округление не задано: отдельный расчет 25×(1+COLA) с округлением до $0.50/$1 или 5×low_cost_article — проверить оба."
+ },
+ {
+  "item": "4.33(2)",
+  "id": "insubstantial_benefit_50",
+  "label": "Rev. Proc. 90-12 $50 benefit guideline",
+  "irs_value": "139",
+  "kind": "not_code_indexed",
+  "base_amount": "50",
+  "base_amount_cite": "Rev. Proc. 90-12 §3 (as described in Rev. Proc. 92-102 §9.02)",
+  "index_cite": "Rev. Proc. 92-102 §10.07 и §12 («adjusted in the same manner»)",
+  "cola_year": 2026,
+  "base_year": "1987",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Индексация $50 введена Rev. Proc. 92-102 §12 «in the same manner». Наблюдение: 1993 $62 = 10×$6.20; 2026 $139 = 10×$13.90.",
+  "quotes": [
+   "Rev. Proc. 92-102 §10.07: \"Rev. Proc. 90-12 provides for the adjustment of the \"low cost article\" and the \"$25 payment\" limitations in that revenue procedure as provided under section 513 (h) (2) (C) of the Code. The \"$50 benefit\" limitation in that revenue procedure is adjusted in the same manner.\"",
+   "Rev. Proc. 92-102 §12: \"Rev. Proc. 90-12, as amplified by Rev. Proc. 92-49, is modified to provide for the indexing of the \"$50 benefit\" limitation.\" §9.03: \"For tax years beginning in 1993, the \"$50 benefit\" limitation is $62, the \"$25 payment\" limitation is $31, and the \"low cost article\" limitation is $6.20.\"",
+   "Rev. Proc. 92-102 §9.02: \"(1) The fair market value of all the benefits received is not more than 2- percent of the contribution, or $50 (the \"$50 benefit\" limitation), whichever is less; (2) The contribution is $25 (the \"$25 payment\" limitation) or more, and the only benefits received by the donor ... have a cost, in the aggregate, of not more than a \"low cost article\" under section 513 (h) (2) of the Code\""
+  ],
+  "source_files": [
+   "usc/513.txt",
+   "rp-2025-32.txt",
+   "https://www.irs.gov/pub/irs-tege/rp92_102.pdf (Rev. Proc. 92-102)",
+   "https://www.irs.gov/pub/irs-tege/rp92_49.pdf (Rev. Proc. 92-49)",
+   "Rev. Proc. 90-12 (1990-1 C.B. 471): на irs.gov не найден (https://www.irs.gov/pub/irs-tege/rp90_12.pdf — 404)"
+  ],
+  "doubts": "Округление не задано; гипотеза — 10 × low_cost_article (после округления). Текст Rev. Proc. 90-12 не получен."
+ },
+ {
+  "item": "4.34",
+  "id": "able_annual_contribution_limit",
+  "label": "ABLE account aggregate annual contribution limit (§529A(b)(2)(B)(i))",
+  "irs_value": "20000",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§2503(b)(1) via §529A(b)(2)(B)(i) as amended by P.L. 119-21 §70115(a)(1)",
+  "index_cite": "§2503(b)(2) with \"1996\" substituted for \"1997\" (§529A(b)(2)(B)(i) as amended by P.L. 119-21 §70115)",
+  "cola_year": 2026,
+  "base_year": "1996",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Отдельная от годового исключения дарений сумма с налоговых лет после 31.12.2025: та же формула §2503(b)(2), но база 1996 вместо 1997. COLA — за календарный год, в котором начинается налоговый год бенефициара (2026). Округление всей суммы вниз до $1,000. Rev. Proc. 4.34 содержит опечатку («instead of instead of ... under provided in section 4.42(1)»).",
+  "quotes": [
+   "§529A(b)(2)(B)(i) (USCODE-2024): \"the amount in effect under section 2503(b) for the calendar year in which the taxable year begins, plus\"",
+   "P.L. 119-21 §70115(a): \"Section 529A(b)(2)(B) is amended — (1) in clause (i), by inserting “ (determined by substituting ‘1996’ for ‘1997’ in paragraph (2)(B) thereof) ” after “ section 2503(b) ”, and (2) in clause (ii), by striking “ before January 1, 2026 ”.\" §70115(b)(2): \"The amendment made by subsection (a)(1) shall apply to taxable years beginning after December 31, 2025.\"",
+   "§2503(b)(2): \"In the case of gifts made in a calendar year after 1998, the $10,000 amount contained in paragraph (1) shall be increased by an amount equal to— (A) $10,000, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any amount as adjusted under the preceding sentence is not a multiple of $1,000, such amount shall be rounded to the next lowest multiple of $1,000.\""
+  ],
+  "source_files": [
+   "usc/529A.txt",
+   "usc/2503.txt",
+   "plaw-119-21.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Подстановка делается в «paragraph (2)(B)» §2503(b), где стоит «calendar year 1997» — меняется только год, получается «calendar year 1996». «for such calendar year» внутри §2503(b)(2) при отсылке из §529A читается как календарный год, в котором начинается налоговый год (2026)."
+ },
+ {
+  "item": "4.36",
+  "id": "small_insurer_831b_premium_limit",
+  "label": "§831(b) net/direct written premiums limit",
+  "irs_value": "2900000",
+  "kind": "indexed",
+  "base_amount": "2200000",
+  "base_amount_cite": "§831(b)(2)(A)(i)",
+  "index_cite": "§831(b)(2)(E)",
+  "cola_year": 2026,
+  "base_year": "2013",
+  "rounding": {
+   "multiple": "50000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "«for such calendar year» = календарный год, в котором начинается налоговый год (2026). Округление всей суммы вниз до $50,000.",
+  "quotes": [
+   "§831(b)(2)(A)(i): \"the net written premiums (or, if greater, direct written premiums) for the taxable year do not exceed $2,200,000,\"",
+   "§831(b)(2)(E): \"In the case of any taxable year beginning in a calendar year after 2015, the dollar amount set forth in subparagraph (A)(i) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2013\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If the amount as adjusted under the preceding sentence is not a multiple of $50,000, such amount shall be rounded to the next lowest multiple of $50,000.\""
+  ],
+  "source_files": [
+   "usc/831.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.37",
+  "id": "expatriate_avg_income_tax_threshold",
+  "label": "Covered expatriate average annual net income tax threshold (§877(a)(2)(A))",
+  "irs_value": "211000",
+  "kind": "indexed",
+  "base_amount": "124000",
+  "base_amount_cite": "§877(a)(2)(A)",
+  "index_cite": "§877(a)(2), flush language after (C)",
+  "cola_year": 2026,
+  "base_year": "2003",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Год — календарный год утраты гражданства/экспатриации (Rev. Proc.: «For calendar year 2026»; §5.03). §877A(g)(1)(A) лишь отсылает к §877(a)(2). Порог чистых активов $2,000,000 (§877(a)(2)(B)) не индексируется и в Rev. Proc. не приводится.",
+  "quotes": [
+   "§877(a)(2)(A): \"the average annual net income tax (as defined in section 38(c)(1)) of such individual for the period of 5 taxable years ending before the date of the loss of United States citizenship is greater than $124,000,\"",
+   "§877(a)(2) flush: \"In the case of the loss of United States citizenship in any calendar year after 2004, such $124,000 amount shall be increased by an amount equal to such dollar amount multiplied by the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"2003\" for \"1992\" in subparagraph (B) thereof. Any increase under the preceding sentence shall be rounded to the nearest multiple of $1,000.\"",
+   "§877A(g)(1)(A): \"The term \"covered expatriate\" means an expatriate who meets the requirements of subparagraph (A), (B), or (C) of section 877(a)(2).\""
+  ],
+  "source_files": [
+   "usc/877.txt",
+   "usc/877A.txt",
+   "usc/1.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Устаревшая перекрёстная ссылка: TCJA (P.L. 115-97 §11002(d)) эту фразу не согласовал — она по-прежнему велит заменить \"1992\" на \"2003\" в §1(f)(3)(B), а там после TCJA стоит C-CPI-U/CPI 2016 и слова «1992» нет. Буквально подстановка пустая (база 2016); по смыслу (и, видимо, по практике IRS) — база 2003 в §1(f)(3)(A)(ii), т. е. знаменатель CPI(2003)×C-CPI-U(2016)/CPI(2016). Проверить оба варианта против $211,000."
+ },
+ {
+  "item": "4.38",
+  "id": "expatriation_gain_exclusion",
+  "label": "Mark-to-market gain exclusion for covered expatriates",
+  "irs_value": "910000",
+  "kind": "indexed",
+  "base_amount": "600000",
+  "base_amount_cite": "§877A(a)(3)(A)",
+  "index_cite": "§877A(a)(3)(B)",
+  "cola_year": 2026,
+  "base_year": "2007",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Округляется вся скорректированная сумма до ближайших $1,000.",
+  "quotes": [
+   "§877A(a)(3)(A): \"... shall be reduced (but not below zero) by $600,000.\"",
+   "§877A(a)(3)(B): \"(i) In general In the case of any taxable year beginning in a calendar year after 2008, the dollar amount in subparagraph (A) shall be increased by an amount equal to— (I) such dollar amount, multiplied by (II) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 2007\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (ii) Rounding If any amount as adjusted under clause (i) is not a multiple of $1,000, such amount shall be rounded to the nearest multiple of $1,000.\""
+  ],
+  "source_files": [
+   "usc/877A.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Налоговый год — год, включающий день перед датой экспатриации; Rev. Proc. относит сумму к налоговым годам, начинающимся в 2026."
+ },
+ {
+  "item": "4.39",
+  "id": "foreign_earned_income_exclusion",
+  "label": "Foreign earned income exclusion amount",
+  "irs_value": "132900",
+  "kind": "indexed",
+  "base_amount": "80000",
+  "base_amount_cite": "§911(b)(2)(D)(i)",
+  "index_cite": "§911(b)(2)(D)(ii)",
+  "cola_year": 2026,
+  "base_year": "2004",
+  "rounding": {
+   "multiple": "100",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Округляется прирост вниз до $100. От этой суммы считаются пороги жилищного исключения §911(c) (16% и 30%) — в Rev. Proc. не приводятся.",
+  "quotes": [
+   "§911(b)(2)(D)(i): \"The exclusion amount for any calendar year is $80,000.\"",
+   "§911(b)(2)(D)(ii): \"In the case of any taxable year beginning in a calendar year after 2005, the $80,000 amount in clause (i) shall be increased by an amount equal to the product of— (I) such dollar amount, and (II) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"2004\" for \"2016\" in subparagraph (A)(ii) thereof. If any increase determined under the preceding sentence is not a multiple of $100, such increase shall be rounded to the next lowest multiple of $100.\""
+  ],
+  "source_files": [
+   "usc/911.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.40",
+  "id": "qualified_debt_instrument_max",
+  "label": "Qualified debt instrument stated principal limit (§1274A(b))",
+  "irs_value": "7462600",
+  "kind": "indexed",
+  "base_amount": "2800000",
+  "base_amount_cite": "§1274A(b)",
+  "index_cite": "§1274A(d)(2)",
+  "cola_year": 2026,
+  "base_year": "1988",
+  "rounding": {
+   "multiple": "100",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Округляется прирост до ближайших $100; если прирост кратен $50 (ровно половина) — вверх.",
+  "quotes": [
+   "§1274A(b): \"... if the stated principal amount of such instrument does not exceed $2,800,000.\"",
+   "§1274A(d)(2): \"In the case of any debt instrument arising out of a sale or exchange during any calendar year after 1989, each dollar amount contained in the preceding provisions of this section shall be increased by an amount equal to— (A) such amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 1988\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. Any increase under the preceding sentence shall be rounded to the nearest multiple of $100 (or, if such increase is a multiple of $50, such increase shall be increased to the nearest multiple of $100).\""
+  ],
+  "source_files": [
+   "usc/1274A.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Внутреннее противоречие: событие — продажа «during any calendar year», а COLA «for the calendar year in which the taxable year begins»; у сделки нет налогового года. Rev. Proc. относит суммы к календарному году 2026 (§5.03) — cola_year 2026."
+ },
+ {
+  "item": "4.40",
+  "id": "cash_method_debt_instrument_max",
+  "label": "Cash method debt instrument stated principal limit (§1274A(c)(2)(A))",
+  "irs_value": "5330500",
+  "kind": "indexed",
+  "base_amount": "2000000",
+  "base_amount_cite": "§1274A(c)(2)(A)",
+  "index_cite": "§1274A(d)(2)",
+  "cola_year": 2026,
+  "base_year": "1988",
+  "rounding": {
+   "multiple": "100",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Индексируется отдельно (не как доля другой суммы). Прирост, кратный $50, округляется вверх.",
+  "quotes": [
+   "§1274A(c)(2)(A): \"the stated principal amount does not exceed $2,000,000,\"",
+   "§1274A(d)(2): \"In the case of any debt instrument arising out of a sale or exchange during any calendar year after 1989, each dollar amount contained in the preceding provisions of this section shall be increased by an amount equal to— (A) such amount, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 1988\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. Any increase under the preceding sentence shall be rounded to the nearest multiple of $100 (or, if such increase is a multiple of $50, such increase shall be increased to the nearest multiple of $100).\""
+  ],
+  "source_files": [
+   "usc/1274A.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Внутреннее противоречие: событие — продажа «during any calendar year», а COLA «for the calendar year in which the taxable year begins»; у сделки нет налогового года. Rev. Proc. относит суммы к календарному году 2026 (§5.03) — cola_year 2026."
+ },
+ {
+  "item": "4.41",
+  "id": "special_use_valuation_max_decrease",
+  "label": "§2032A aggregate decrease limit",
+  "irs_value": "1460000",
+  "kind": "indexed",
+  "base_amount": "750000",
+  "base_amount_cite": "§2032A(a)(2)",
+  "index_cite": "§2032A(a)(3)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "10000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Год — календарный год смерти наследодателя. Округление всей суммы вниз до $10,000.",
+  "quotes": [
+   "§2032A(a)(2): \"... shall not exceed $750,000.\"",
+   "§2032A(a)(3): \"In the case of estates of decedents dying in a calendar year after 1998, the $750,000 amount contained in paragraph (2) shall be increased by an amount equal to— (A) $750,000, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any amount as adjusted under the preceding sentence is not a multiple of $10,000, such amount shall be rounded to the next lowest multiple of $10,000.\""
+  ],
+  "source_files": [
+   "usc/2032A.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.42(1)",
+  "id": "gift_annual_exclusion",
+  "label": "Annual gift tax exclusion per donee",
+  "irs_value": "19000",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§2503(b)(1)",
+  "index_cite": "§2503(b)(2)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Год — календарный год дарения. Округление всей суммы вниз до $1,000.",
+  "quotes": [
+   "§2503(b)(1): \"In the case of gifts (other than gifts of future interests in property) made to any person by the donor during the calendar year, the first $10,000 of such gifts to such person shall not ... be included in the total amount of gifts made during such year.\"",
+   "§2503(b)(2): \"In the case of gifts made in a calendar year after 1998, the $10,000 amount contained in paragraph (1) shall be increased by an amount equal to— (A) $10,000, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any amount as adjusted under the preceding sentence is not a multiple of $1,000, such amount shall be rounded to the next lowest multiple of $1,000.\""
+  ],
+  "source_files": [
+   "usc/2503.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.42(2)",
+  "id": "gift_noncitizen_spouse_exclusion",
+  "label": "Annual exclusion for gifts to noncitizen spouse (§2523(i)(2))",
+  "irs_value": "194000",
+  "kind": "indexed",
+  "base_amount": "100000",
+  "base_amount_cite": "§2523(i)(2) (substitutes $100,000 for $10,000 in §2503(b))",
+  "index_cite": "§2503(b)(2) as applied by §2523(i)(2)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "§2523(i)(2) применяет §2503(b) целиком с заменой «$10,000» на «$100,000» — в том числе в формуле индексации (2)(A); COLA тот же, что у годового исключения; округление всей суммы вниз до $1,000.",
+  "quotes": [
+   "§2523(i)(2): \"section 2503(b) shall be applied with respect to gifts which are made by the donor to such spouse and with respect to which a deduction would be allowable under this section but for paragraph (1) by substituting \"$100,000\" for \"$10,000\", and\"",
+   "§2503(b)(2): \"In the case of gifts made in a calendar year after 1998, the $10,000 amount contained in paragraph (1) shall be increased by an amount equal to— (A) $10,000, multiplied by (B) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 1997\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any amount as adjusted under the preceding sentence is not a multiple of $1,000, such amount shall be rounded to the next lowest multiple of $1,000.\""
+  ],
+  "source_files": [
+   "usc/2523.txt",
+   "usc/2503.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Замена «$10,000» не уточнена словами «each place it appears», но иначе индексация не работает; Treas. Reg. §25.2523(i)-1(c)(1) (не проверялся) прямо индексирует $100,000."
+ },
+ {
+  "item": "4.42(3)",
+  "id": "covered_gift_2801_exception",
+  "label": "§2801(c) exception for covered gifts/bequests from covered expatriate",
+  "irs_value": "19000",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "§2801(c)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "= gift_annual_exclusion",
+  "special": "Отсылка к «dollar amount in effect under section 2503(b)» за тот же календарный год.",
+  "quotes": [
+   "§2801(c): \"Subsection (a) shall apply only to the extent that the value of covered gifts and bequests received by any person during the calendar year exceeds the dollar amount in effect under section 2503(b) for such calendar year.\""
+  ],
+  "source_files": [
+   "usc/2801.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.43",
+  "id": "arrow_shaft_tax",
+  "label": "Tax per arrow shaft",
+  "irs_value": "0.65",
+  "kind": "indexed",
+  "base_amount": "0.39",
+  "base_amount_cite": "§4161(b)(2)(A)",
+  "index_cite": "§4161(b)(2)(C)",
+  "cola_year": 2026,
+  "base_year": "2004",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Календарный год продажи. Прирост округляется до ближайшего цента.",
+  "quotes": [
+   "§4161(b)(2)(A): \"a tax equal to 39 cents per shaft.\"",
+   "§4161(b)(2)(C): \"(i) In general In the case of any calendar year beginning after 2005, the 39-cent amount specified in subparagraph (A) shall be increased by an amount equal to the product of— (I) such amount, multiplied by (II) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year, determined by substituting \"2004\" for \"2016\" in subparagraph (A)(ii) thereof. (ii) Rounding If any increase determined under clause (i) is not a multiple of 1 cent, such increase shall be rounded to the nearest multiple of 1 cent.\""
+  ],
+  "source_files": [
+   "usc/4161.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Половина цента при nearest не урегулирована."
+ },
+ {
+  "item": "4.44",
+  "id": "air_domestic_segment_tax",
+  "label": "Domestic segment tax per segment",
+  "irs_value": "5.30",
+  "kind": "indexed",
+  "base_amount": "3.00",
+  "base_amount_cite": "§4261(b)(1)",
+  "index_cite": "§4261(e)(4)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "0.10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Последний неиндексированный год 2002 → база «год до него» = 2001. Событие — начало сегмента; при оплате заранее — ставка года оплаты ((e)(4)(D)).",
+  "quotes": [
+   "§4261(b)(1): \"a tax in the amount of $3.00.\"",
+   "§4261(e)(4)(A): \"In the case of taxable events in a calendar year after the last nonindexed year, the $3.00 amount contained in subsection (b) and each dollar amount contained in subsection (c) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting the year before the last nonindexed year for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase determined under the preceding sentence is not a multiple of 10 cents, such increase shall be rounded to the nearest multiple of 10 cents.\"",
+   "§4261(e)(4)(B): \"the last nonindexed year is— (i) 2002 in the case of the $3.00 amount contained in subsection (b), and (ii) 1998 in the case of the dollar amounts contained in subsection (c).\" (C): \"in the case of the tax imposed by subsection (b), the beginning of the domestic segment shall be treated as the taxable event.\" (D): \"If an amount is paid during a calendar year for a domestic segment beginning in a later calendar year, then the rate of tax under subsection (b) on such amount shall be the rate in effect for the calendar year in which such amount is paid.\""
+  ],
+  "source_files": [
+   "usc/4261.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Правило индексации — §4261(e)(4), а не (g): (g) — освобождение санавиации. Половина (5 центов) при nearest не урегулирована."
+ },
+ {
+  "item": "4.44",
+  "id": "air_international_tax",
+  "label": "International air transportation facilities tax",
+  "irs_value": "23.40",
+  "kind": "indexed",
+  "base_amount": "12.00",
+  "base_amount_cite": "§4261(c)(1)",
+  "index_cite": "§4261(e)(4)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "0.10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Последний неиндексированный год 1998 → база 1997.",
+  "quotes": [
+   "§4261(c)(1): \"There is hereby imposed a tax of $12.00 on any amount paid (whether within or without the United States) for any transportation of any person by air, if such transportation begins or ends in the United States.\"",
+   "§4261(e)(4)(A): \"In the case of taxable events in a calendar year after the last nonindexed year, the $3.00 amount contained in subsection (b) and each dollar amount contained in subsection (c) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting the year before the last nonindexed year for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase determined under the preceding sentence is not a multiple of 10 cents, such increase shall be rounded to the nearest multiple of 10 cents.\"",
+   "§4261(e)(4)(B): \"the last nonindexed year is— (i) 2002 in the case of the $3.00 amount contained in subsection (b), and (ii) 1998 in the case of the dollar amounts contained in subsection (c).\" (C): \"in the case of the tax imposed by subsection (b), the beginning of the domestic segment shall be treated as the taxable event.\" (D): \"If an amount is paid during a calendar year for a domestic segment beginning in a later calendar year, then the rate of tax under subsection (b) on such amount shall be the rate in effect for the calendar year in which such amount is paid.\""
+  ],
+  "source_files": [
+   "usc/4261.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Правило индексации — §4261(e)(4), а не (g): (g) — освобождение санавиации. Половина (5 центов) при nearest не урегулирована. «Taxable event» для (c) не определено ((e)(4)(C) — только для (b)); Rev. Proc. относит к календарному году 2026."
+ },
+ {
+  "item": "4.44",
+  "id": "air_alaska_hawaii_tax",
+  "label": "International facilities tax rate for domestic segment beginning/ending in Alaska or Hawaii (departures)",
+  "irs_value": "11.70",
+  "kind": "indexed",
+  "base_amount": "6",
+  "base_amount_cite": "§4261(c)(3)",
+  "index_cite": "§4261(e)(4)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "0.10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "$6 — «dollar amount contained in subsection (c)», индексируется самостоятельно с той же базой 1997 (не как половина $23.40).",
+  "quotes": [
+   "§4261(c)(3): \"such tax shall apply only to departures and shall be at the rate of $6.\"",
+   "§4261(e)(4)(A): \"In the case of taxable events in a calendar year after the last nonindexed year, the $3.00 amount contained in subsection (b) and each dollar amount contained in subsection (c) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting the year before the last nonindexed year for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any increase determined under the preceding sentence is not a multiple of 10 cents, such increase shall be rounded to the nearest multiple of 10 cents.\"",
+   "§4261(e)(4)(B): \"the last nonindexed year is— (i) 2002 in the case of the $3.00 amount contained in subsection (b), and (ii) 1998 in the case of the dollar amounts contained in subsection (c).\" (C): \"in the case of the tax imposed by subsection (b), the beginning of the domestic segment shall be treated as the taxable event.\" (D): \"If an amount is paid during a calendar year for a domestic segment beginning in a later calendar year, then the rate of tax under subsection (b) on such amount shall be the rate in effect for the calendar year in which such amount is paid.\""
+  ],
+  "source_files": [
+   "usc/4261.txt",
+   "rp-2025-32.txt"
+  ],
+  "doubts": "Правило индексации — §4261(e)(4), а не (g): (g) — освобождение санавиации. Половина (5 центов) при nearest не урегулирована."
+ },
+ {
+  "item": "4.45",
+  "id": "superfund_petroleum_rate",
+  "label": "Hazardous Substance Superfund financing rate on crude oil/petroleum, per barrel",
+  "irs_value": "0.18",
+  "kind": "indexed",
+  "base_amount": "0.164",
+  "base_amount_cite": "§4611(c)(2)(A) (16.4 cents, P.L. 117-169 §13601 — IRA 2022, не IIJA)",
+  "index_cite": "§4611(c)(3)",
+  "cola_year": 2026,
+  "base_year": "2022",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Значение 0.18 в самом Rev. Proc. отдельно не указано — оно из Announcement 2026-2. Округляется вся ставка вниз до цента. База 2022 > 2016 → COLA = C-CPI-U(2025)/C-CPI-U(2022) − 1 (§1(f)(3)(C)).",
+  "quotes": [
+   "§4611(c)(2): \"(A) the Hazardous Substance Superfund financing rate is 16.4 cents a barrel, and (B) the Oil Spill Liability Trust Fund financing rate is— (i) in the case of crude oil received or petroleum products entered before January 1, 2017, 8 cents a barrel, and (ii) in the case of crude oil received or petroleum products entered after December 31, 2016, 9 cents a barrel.\"",
+   "§4611(c)(3): \"(A) In general In the case of a year beginning after 2023, the amount in paragraph (2)(A) shall be increased by an amount equal to— (i) such amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year, determined by substituting \"calendar year 2022\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. (B) Rounding If any amount as adjusted under subparagraph (A) is not a multiple of $0.01, such amount shall be rounded to the next lowest multiple of $0.01.\"",
+   "IRS Announcement 2026-2, §1: \"Section 4.45 of Rev. Proc. 2025-32 ... states that the inflation-adjusted amount for the § 4611 tax rate for the 2026 calendar year is $0.27 per barrel, which represents the sum of the $0.18 per barrel inflation-adjusted Superfund tax rate and the $0.09 per barrel OSLTF tax rate.\" §2: \"The OSLTF tax rate expired on December 31, 2025. As a result, the § 4611 tax rate for calendar year 2026 is $0.18 per barrel, which represents only the inflation-adjusted Superfund tax rate.\""
+  ],
+  "source_files": [
+   "usc/4611.txt",
+   "rp-2025-32.txt",
+   "https://www.irs.gov/pub/irs-drop/a-26-02.pdf (Announcement 2026-2)"
+  ],
+  "doubts": "Ставка 16.4 цента введена IRA 2022 (P.L. 117-169 §13601), а не IIJA, как сказано в поручении."
+ },
+ {
+  "item": "4.45",
+  "id": "oil_spill_liability_rate",
+  "label": "Oil Spill Liability Trust Fund financing rate, per barrel",
+  "irs_value": "0.09",
+  "kind": "fixed_statutory",
+  "base_amount": "0.09",
+  "base_amount_cite": "§4611(c)(2)(B)(ii)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Не индексируется. По §4611(f)(2) не применяется после 31.12.2025; на 2026 год фактически 0 (Announcement 2026-2).",
+  "quotes": [
+   "§4611(c)(2): \"(A) the Hazardous Substance Superfund financing rate is 16.4 cents a barrel, and (B) the Oil Spill Liability Trust Fund financing rate is— (i) in the case of crude oil received or petroleum products entered before January 1, 2017, 8 cents a barrel, and (ii) in the case of crude oil received or petroleum products entered after December 31, 2016, 9 cents a barrel.\"",
+   "§4611(f)(2): \"The Oil Spill Liability Trust Fund financing rate shall not apply after December 31, 2025.\"",
+   "IRS Announcement 2026-2, §1: \"Section 4.45 of Rev. Proc. 2025-32 ... states that the inflation-adjusted amount for the § 4611 tax rate for the 2026 calendar year is $0.27 per barrel, which represents the sum of the $0.18 per barrel inflation-adjusted Superfund tax rate and the $0.09 per barrel OSLTF tax rate.\" §2: \"The OSLTF tax rate expired on December 31, 2025. As a result, the § 4611 tax rate for calendar year 2026 is $0.18 per barrel, which represents only the inflation-adjusted Superfund tax rate.\""
+  ],
+  "source_files": [
+   "usc/4611.txt",
+   "rp-2025-32.txt",
+   "https://www.irs.gov/pub/irs-drop/a-26-02.pdf (Announcement 2026-2)"
+  ],
+  "doubts": "Rev. Proc. 2025-32 включил $0.09 в ставку 2026 года вопреки §4611(f)(2); IRS поправил это Announcement 2026-2. Продление ставки законом 2025–2026 годов не найдено."
+ },
+ {
+  "item": "4.45",
+  "id": "petroleum_tax_total",
+  "label": "§4611 total tax on crude oil/petroleum products, per barrel (as in Rev. Proc.)",
+  "irs_value": "0.27",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "§4611(c)(1)",
+  "index_cite": null,
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "superfund_petroleum_rate + oil_spill_liability_rate",
+  "special": "§4611(c)(1): ставка = сумма двух ставок. Rev. Proc. дал 0.27 = 0.18 + 0.09; по действующему тексту на 2026 год итог = 0.18 (ставка OSLTF истекла 31.12.2025, Announcement 2026-2).",
+  "quotes": [
+   "§4611(c)(1): \"The rate of the taxes imposed by this section is the sum of— (A) the Hazardous Substance Superfund financing rate, and (B) the Oil Spill Liability Trust Fund financing rate.\"",
+   "§4611(f)(2): \"The Oil Spill Liability Trust Fund financing rate shall not apply after December 31, 2025.\"",
+   "IRS Announcement 2026-2, §1: \"Section 4.45 of Rev. Proc. 2025-32 ... states that the inflation-adjusted amount for the § 4611 tax rate for the 2026 calendar year is $0.27 per barrel, which represents the sum of the $0.18 per barrel inflation-adjusted Superfund tax rate and the $0.09 per barrel OSLTF tax rate.\" §2: \"The OSLTF tax rate expired on December 31, 2025. As a result, the § 4611 tax rate for calendar year 2026 is $0.18 per barrel, which represents only the inflation-adjusted Superfund tax rate.\""
+  ],
+  "source_files": [
+   "usc/4611.txt",
+   "rp-2025-32.txt",
+   "https://www.irs.gov/pub/irs-drop/a-26-02.pdf (Announcement 2026-2)"
+  ],
+  "doubts": "Rev. Proc. 0.27 правильно по формуле, но неверно по закону на 2026 год: правильно 0.18. Сверять расчет с 0.27 только при допущении, что OSLTF действует."
+ }
+]

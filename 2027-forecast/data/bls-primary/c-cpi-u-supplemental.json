@@ -1,0 +1,18 @@
+{
+ "note": "Первичные выпуски BLS: таблица 1C (C-CPI-U) из supplemental files к ежемесячному выпуску CPI. Файлы скачаны встроенным браузером 21.10.2026 (curl получает 403), разобраны в браузере; sha256 посчитан там же по байтам xlsx. Строки: All items (SUUR0000SA0) и Medical care (SUUR0000SAM); [предыдущий месяц, текущий месяц] как напечатано в этом выпуске. Значение '-' — октябрь 2025 не опубликован.",
+ "url_template": "https://www.bls.gov/cpi/tables/supplemental-files/c-cpi-u-YYYYMM.xlsx",
+ "files": [
+  {"month": "202509", "sha256": "d841c511193909039e7aa2fe7f70927e5f8b70bcbd8878148e376506c85b3d37", "bytes": 11484, "cols": ["2025-08", "2025-09"], "all_items": ["179.656", "180.113"], "medical_care": ["219.807", "220.054"]},
+  {"month": "202511", "sha256": "ced2cbc20a98eec043fa57e4b9f208e4248e9c23b0ff09839d35f92a019add91", "bytes": 11342, "cols": ["2025-10", "2025-11"], "all_items": ["-", "179.707"], "medical_care": ["-", "220.156"]},
+  {"month": "202512", "sha256": "1a8d73917534bc0ac56f43cb4de44db5b18d1b8f56c7c5299f29aee84eb2b286", "bytes": 11530, "cols": ["2025-11", "2025-12"], "all_items": ["179.707", "179.593"], "medical_care": ["220.156", "220.840"]},
+  {"month": "202601", "sha256": "81f4c31707a2cf71634efe68ccedb47118961ed369941bfebfc3ede25c515657", "bytes": 11413, "cols": ["2025-12", "2026-01"], "all_items": ["179.621", "180.257"], "medical_care": ["220.835", "221.940"]},
+  {"month": "202602", "sha256": "5469e47644f5d0e6286a18a3a30c0cebdecf3136603ff3f511c2d503291900ce", "bytes": 11516, "cols": ["2026-01", "2026-02"], "all_items": ["180.257", "181.105"], "medical_care": ["221.940", "222.802"]},
+  {"month": "202603", "sha256": "4255600745640810bee5d86b6551d0b06fffa3ae4821cc0a4a15d6e012c71dca", "bytes": 14727, "cols": ["2026-02", "2026-03"], "all_items": null, "medical_care": ["222.802", "222.604"], "parse_note": "строка All items в этом файле иной раскладки, не разобрана"},
+  {"month": "202604", "sha256": "d57f2c9abedff8c9acbef83bf382aa28a000a39667d5620522445fbb6330226e", "bytes": 11427, "cols": ["2026-03", "2026-04"], "all_items": ["183.013", "184.499"], "medical_care": ["222.603", "222.355"]},
+  {"month": "202605", "sha256": "6e7bbef2f93b4bf1ad66c2f82e4538d39085baf1c3f756831d5d3fd88d0de46b", "bytes": 11563, "cols": ["2026-04", "2026-05"], "all_items": ["184.499", "185.589"], "medical_care": ["222.355", "222.913"]},
+  {"month": "202606", "sha256": "d33302a09a2eaaa70e9c5af88b38c7af1e99edefff87b0a39cdcd53a87e9f68c", "bytes": 11497, "cols": ["2026-05", "2026-06"], "all_items": ["185.589", "184.992"], "medical_care": ["222.913", "222.710"]},
+  {"month": "202607", "sha256": "234ceb63eaec934742efbab713358e7fabbdeb74aca9a4804423ff2d637d7f78", "bytes": 11467, "cols": ["2026-06", "2026-07"], "all_items": ["185.172", "185.162"], "medical_care": ["222.901", "223.214"]},
+  {"month": "202608", "sha256": "76fda9922e54f120bff2e597d98c9270dc9b855243bbb6a4e133cec818e93fe8", "bytes": 11490, "cols": ["2026-07", "2026-08"], "all_items": ["185.162", "185.739"], "medical_care": ["223.214", "222.917"]},
+  {"month": "202609", "sha256": "74d9b69e2b890af33b6e8f015cc283c529c94a1bfc8a5ff834a490bb624eee5d", "bytes": 11488, "cols": ["2026-08", "2026-09"], "all_items": ["185.739", "186.755"], "medical_care": ["222.917", "223.160"]}
+ ]
+}

@@ -1,0 +1,16 @@
+== family base $4500
+2017-37: CPI-U, Mar-31 periods                                   COLA=1.528651 raw=6878.93 -> 6900
+2018-18: C-CPI-U, all Mar-31, vintage 2017-09-14                 COLA=1.524429 raw=6859.93 -> 6850
+2018-18: C-CPI-U, Mar-31 num/base, 2016 ratio Aug-31, vintage 2017-09-14 COLA=1.526605 raw=6869.72 -> 6850
+2018-18: C-CPI-U, all Mar-31, vintage 2018-03-13                 COLA=1.523993 raw=6857.97 -> 6850
+2018-18: C-CPI-U, Mar-31 num/base, 2016 ratio Aug-31, vintage 2018-03-13 COLA=1.526168 raw=6867.76 -> 6850
+2018-18: C-CPI-U, all Mar-31, current final                      COLA=1.523993 raw=6857.97 -> 6850
+2018-18: C-CPI-U, Mar-31 num/base, 2016 ratio Aug-31, current final COLA=1.526168 raw=6867.76 -> 6850
+== self-only base $2250
+2017-37: CPI-U, Mar-31 periods                                   COLA=1.528651 raw=3439.47 -> 3450
+2018-18: C-CPI-U, all Mar-31, vintage 2017-09-14                 COLA=1.524429 raw=3429.97 -> 3450
+2018-18: C-CPI-U, Mar-31 num/base, 2016 ratio Aug-31, vintage 2017-09-14 COLA=1.526605 raw=3434.86 -> 3450
+2018-18: C-CPI-U, all Mar-31, vintage 2018-03-13                 COLA=1.523993 raw=3428.98 -> 3450
+2018-18: C-CPI-U, Mar-31 num/base, 2016 ratio Aug-31, vintage 2018-03-13 COLA=1.526168 raw=3433.88 -> 3450
+2018-18: C-CPI-U, all Mar-31, current final                      COLA=1.523993 raw=3428.98 -> 3450
+2018-18: C-CPI-U, Mar-31 num/base, 2016 ratio Aug-31, current final COLA=1.526168 raw=3433.88 -> 3450

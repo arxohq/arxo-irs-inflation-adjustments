@@ -1,0 +1,306 @@
+[
+ {
+  "item": "E.2010",
+  "id": "estate_basic_exclusion_2010c3",
+  "label": "§2010(c)(3) basic exclusion amount (estate, gift via §2505; GST exemption §2631(c) = this amount)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "15000000",
+  "base_amount_cite": "§2010(c)(3)(A) as amended by P.L. 119-21 §70106(a)(1)",
+  "index_cite": "§2010(c)(3)(B) as amended by P.L. 119-21 §70106(a)(2)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "10000",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Первый индексируемый год — 2027 («decedent dying in a calendar year after 2026»). Округляется СУММА (amount as adjusted), а не прирост.",
+  "quotes": [
+   "Section 2010(c)(3) is amended — (1) in subparagraph (A) by striking “ $5,000,000 ” and inserting “ $15,000,000 ”, (2) in subparagraph (B)— (A) in the matter preceding clause (i), by striking “ 2011 ” and inserting “ 2026 ”, and (B) in clause (ii), by striking “ calendar year 2010 ” and inserting “ calendar year 2025 ”, and (3) by striking subparagraph (C).",
+   "(B) Inflation adjustment In the case of any decedent dying in a calendar year after 2011, the dollar amount in subparagraph (A) shall be increased by an amount equal to— (i) such dollar amount, multiplied by (ii) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2010\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. If any amount as adjusted under the preceding sentence is not a multiple of $10,000, such amount shall be rounded to the nearest multiple of $10,000."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70106",
+   "USCODE-2024-title26 sec2010.htm"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.2631",
+  "id": "gst_exemption_2631c",
+  "label": "§2631(c) GST exemption = basic exclusion amount §2010(c)",
+  "irs_value": null,
+  "kind": "derived",
+  "derived_formula": "= estate_basic_exclusion_2010c3",
+  "cola_year": 2027,
+  "special": "§2631(c)(1): GST exemption равен basic exclusion amount §2010(c) на календарный год.",
+  "quotes": [],
+  "source_files": [
+   "USCODE-2024-title26 sec2631.htm"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.6041",
+  "id": "info_reporting_threshold_6041a",
+  "label": "§6041(a) порог информационной отчётности (1099-NEC/MISC; по §6041A(a)(2) и §3406 — тот же)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "2000",
+  "base_amount_cite": "§6041(a) as amended by P.L. 119-21 §70433(a)",
+  "index_cite": "§6041(h) added by P.L. 119-21 §70433(b)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "100",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "«any calendar year after 2026» — год платежей. Прирост до ближайших $100.",
+  "quotes": [
+   "Section 6041(a) is amended by striking “ $600 ” and inserting “ $2,000 ”.",
+   "In the case of any calendar year after 2026, the dollar amount in subsection (a) shall be increased by an amount equal to— “(1) such dollar amount, multiplied by “(2) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year, determined by substituting ‘calendar year 2025’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. If any increase under the preceding sentence is not a multiple of $100, such increase shall be rounded to the nearest multiple of $100."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70433"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.127",
+  "id": "educational_assistance_127a2",
+  "label": "§127(a)(2) лимит образовательной помощи работодателя (оба $5,250)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "5250",
+  "base_amount_cite": "§127(a)(2)",
+  "index_cite": "§127(d) added by P.L. 119-21 §70412(b)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "«taxable year beginning after 2026», COLA календарного года начала налогового года.",
+  "quotes": [
+   "In the case of any taxable year beginning after 2026, both of the $5,250 amounts in subsection (a)(2) shall each be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) Determination. the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2025’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. “(2) Rounding .— If any increase under paragraph (1) is not a multiple of $50, such increase shall be rounded to the nearest multiple of $50."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70412"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.199A",
+  "id": "qbi_min_deduction_199Ai",
+  "label": "§199A(i)(1)(B) минимальный вычет QBI ($400)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "400",
+  "base_amount_cite": "§199A(i)(1)(B) added by P.L. 119-21 §70105(b)",
+  "index_cite": "§199A(i)(3)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "5",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "",
+  "quotes": [
+   "In the case of any taxable year beginning after 2026, the $400 amount in paragraph (1)(B) and the $1,000 amount in paragraph (2)(A) shall each be increased by an amount equal to — “(A) such dollar amount, multiplied by “(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2025’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. If any increase under this paragraph is not a multiple of $5, such increase shall be rounded to the nearest multiple of $5."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70105(b)"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.199A",
+  "id": "qbi_min_active_income_199Ai",
+  "label": "§199A(i)(2)(A) порог активного QBI для минимального вычета ($1,000)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "1000",
+  "base_amount_cite": "§199A(i)(2)(A) added by P.L. 119-21 §70105(b)",
+  "index_cite": "§199A(i)(3)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "5",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "",
+  "quotes": [
+   "см. qbi_min_deduction_199Ai — одна фраза §199A(i)(3)"
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70105(b)"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.45F",
+  "id": "child_care_credit_max_45F",
+  "label": "§45F(b)(1) предел кредита за детский уход у работодателя ($500,000)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "500000",
+  "base_amount_cite": "§45F(b)(1) as amended by P.L. 119-21 §70401(b)",
+  "index_cite": "§45F(b)(2)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Правила округления в §45F(b)(2) НЕТ: по тексту сумма без округления (как §45R(d)(3)(B), который IRS округлил до $100).",
+  "quotes": [
+   "(b) Dollar Limitation .— 139 STAT. 213 “(1) In general .— The credit allowable under subsection (a) for any taxable year shall not exceed $500,000 ($600,000 in the case of an eligible small business). “(2) Effective date. Inflation adjustment .— In the case of any taxable year beginning after 2026, the $500,000 and $600,000 amounts in paragraph (1) shall each be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2025’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70401(b)"
+  ],
+  "doubts": "Текст без округления; практика IRS неизвестна."
+ },
+ {
+  "item": "E.45F",
+  "id": "child_care_credit_max_small_45F",
+  "label": "§45F(b)(1) предел для eligible small business ($600,000)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "600000",
+  "base_amount_cite": "§45F(b)(1) as amended by P.L. 119-21 §70401(b)",
+  "index_cite": "§45F(b)(2)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Как child_care_credit_max_45F: округления в тексте нет.",
+  "quotes": [
+   "см. child_care_credit_max_45F"
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70401(b)"
+  ],
+  "doubts": "Текст без округления; практика IRS неизвестна."
+ },
+ {
+  "item": "E.1202",
+  "id": "qsbs_per_issuer_cap_1202b4",
+  "label": "§1202(b)(4)(B) предел исключения на эмитента ($15,000,000) для акций после 04.07.2025",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "15000000",
+  "base_amount_cite": "§1202(b)(4)(B) as amended by P.L. 119-21 §70431",
+  "index_cite": "§1202(b)(5)(A)",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "10000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "§1202(b)(5)(B): прирост не действует, если лимит уже исчерпан — это условие дела, не суммы.",
+  "quotes": [
+   "In the case of any taxable year beginning after 2026, the $15,000,000 amount in paragraph (4)(B) shall be increased by an amount equal to — “(i) such dollar amount, multiplied by “(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2025’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. If any increase under this subparagraph is not a multiple of $10,000, such increase shall be rounded to the nearest multiple of $10,000."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70431"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.1202",
+  "id": "qsbs_gross_assets_1202d1",
+  "label": "§1202(d)(1)(A),(B) предел совокупных активов qualified small business ($75,000,000)",
+  "irs_value": null,
+  "kind": "indexed",
+  "base_amount": "75000000",
+  "base_amount_cite": "§1202(d)(1)(A),(B) as amended by P.L. 119-21 §70431(c)(1)",
+  "index_cite": "§1202 (inflation adjustment added by P.L. 119-21 §70431(c)(2))",
+  "cola_year": 2027,
+  "base_year": "2025",
+  "rounding": {
+   "multiple": "10000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Закон вставляет поправку в «Section 1202(b)» новым paragraph (4), хотя (b)(4) уже занят пределом на эмитента; нумерация в тексте Кодекса потребует редакционной сверки.",
+  "quotes": [
+   "In the case of any taxable year beginning after 2026, the $75,000,000 amounts in paragraphs (1)(A) and (1)(B) shall each be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2025’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. If any increase under this paragraph is not a multiple of $10,000, such increase shall be rounded to the nearest multiple of $10,000."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70431(c)"
+  ],
+  "doubts": "Место вставки (b)(4) при уже существующем (b)(4) — дефект нумерации; на сумму не влияет."
+ },
+ {
+  "item": "E.164",
+  "id": "salt_cap_164b7",
+  "label": "§164(b)(7)(A)(iii) applicable limitation amount (SALT), 101% от суммы прошлого года",
+  "irs_value": null,
+  "kind": "statutory_formula",
+  "base_amount": "40400",
+  "base_amount_cite": "§164(b)(7)(A)(ii) added by P.L. 119-21 §70120(b)",
+  "index_cite": "§164(b)(7)(A)(iii)",
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": "amount"
+  },
+  "derived_formula": "40400 * 1.01",
+  "special": "Не C-CPI-U: статутный рост 1% в год (2027–2029), с 2030 — $10,000. Округления нет.",
+  "quotes": [
+   "“(ii) in the case of any taxable year beginning in calendar year 2026, $40,400, “(iii) in the case of any taxable year beginning after calendar year 2026 and before 2030, 101 percent of the dollar amount in effect under this subparagraph for taxable years beginning in the preceding calendar year, and “(iv) in the case of any taxable year beginning after calendar year 2029, $10,000."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70120"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "E.164",
+  "id": "salt_threshold_164b7",
+  "label": "§164(b)(7)(B)(ii) threshold amount для сокращения SALT, 101% от прошлого года",
+  "irs_value": null,
+  "kind": "statutory_formula",
+  "base_amount": "505000",
+  "base_amount_cite": "§164(b)(7)(B)(ii)(II)",
+  "index_cite": "§164(b)(7)(B)(ii)(III)",
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": "amount"
+  },
+  "derived_formula": "505000 * 1.01",
+  "special": "Статутный рост 1%; MFS — половина.",
+  "quotes": [
+   "“(I) in the case of any taxable year beginning in calendar year 2025, $500,000, “(II) in the case of any taxable year beginning in calendar year 2026, $505,000, and “(III) in the case of any taxable year beginning after calendar year 2026, 101 percent of the dollar amount in effect under this subparagraph for taxable years beginning in the preceding calendar year."
+  ],
+  "source_files": [
+   "PLAW-119publ21.xml §70120"
+  ],
+  "doubts": ""
+ }
+]

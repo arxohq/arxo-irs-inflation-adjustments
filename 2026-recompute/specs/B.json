@@ -1,0 +1,1848 @@
+[
+ {
+  "item": "4.04(1)",
+  "id": "adoption_credit_special_needs",
+  "label": "Adoption credit, child with special needs (§23(a)(3))",
+  "irs_value": "17670",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§23(a)(3)",
+  "index_cite": "§23(h)(1) as amended by P.L. 119-21 §70402(b)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Same base and index as §23(b)(1); value always equals adoption_credit_dollar_limit. Tie-break for exact $5 not specified ('nearest multiple of $10').",
+  "quotes": [
+   "(3) $10,000 credit for adoption of child with special needs regardless of expenses ... in an amount equal to the excess (if any) of $10,000 over the aggregate qualified adoption expenses actually paid or incurred",
+   "“(h) Adjustments for Inflation .— “(1) Effective date. In general .— In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in paragraphs (3) and (4) of subsection (a) and paragraphs (1) and 139 STAT. 214 (2)(A)(i) of subsection (b) shall be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) Determination. the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2001’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof.",
+   "“(2) Rounding .— If any amount as increased under paragraph (1) is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/23.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.04(2)",
+  "id": "adoption_credit_dollar_limit",
+  "label": "Adoption credit, maximum qualified adoption expenses (§23(b)(1))",
+  "irs_value": "17670",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§23(b)(1)",
+  "index_cite": "§23(h)(1) as amended by P.L. 119-21 §70402(b)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "",
+  "quotes": [
+   "The aggregate amount of qualified adoption expenses which may be taken into account under subsection (a) for all taxable years with respect to the adoption of a child by the taxpayer shall not exceed $10,000.",
+   "“(h) Adjustments for Inflation .— “(1) Effective date. In general .— In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in paragraphs (3) and (4) of subsection (a) and paragraphs (1) and 139 STAT. 214 (2)(A)(i) of subsection (b) shall be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) Determination. the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2001’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof.",
+   "“(2) Rounding .— If any amount as increased under paragraph (1) is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/23.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.04(2)",
+  "id": "adoption_credit_phaseout_threshold",
+  "label": "Adoption credit, MAGI phaseout threshold (§23(b)(2)(A)(i))",
+  "irs_value": "265080",
+  "kind": "indexed",
+  "base_amount": "150000",
+  "base_amount_cite": "§23(b)(2)(A)(i)",
+  "index_cite": "§23(h)(1) as amended by P.L. 119-21 §70402(b)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "",
+  "quotes": [
+   "(i) the amount (if any) by which the taxpayer's adjusted gross income exceeds $150,000, bears to",
+   "“(h) Adjustments for Inflation .— “(1) Effective date. In general .— In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in paragraphs (3) and (4) of subsection (a) and paragraphs (1) and 139 STAT. 214 (2)(A)(i) of subsection (b) shall be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) Determination. the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2001’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof.",
+   "“(2) Rounding .— If any amount as increased under paragraph (1) is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/23.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.04(2)",
+  "id": "adoption_credit_phaseout_complete",
+  "label": "Adoption credit, MAGI at which fully phased out",
+  "irs_value": "305080",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "adoption_credit_phaseout_threshold + 40000",
+  "special": "Phaseout range $40,000 (§23(b)(2)(A)(ii)) is NOT among the amounts indexed by §23(h)(1) (only (b)(2)(A)(i)).",
+  "quotes": [
+   "(ii) $40,000.",
+   "each of the dollar amounts in paragraphs (3) and (4) of subsection (a) and paragraphs (1) and 139 STAT. 214 (2)(A)(i) of subsection (b) shall be increased"
+  ],
+  "source_files": [
+   "usc/23.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.04(3)",
+  "id": "adoption_credit_refundable_portion",
+  "label": "Adoption credit, refundable portion (§23(a)(4))",
+  "irs_value": "5120",
+  "kind": "indexed",
+  "base_amount": "5000",
+  "base_amount_cite": "§23(a)(4) as added by P.L. 119-21 §70402(a)",
+  "index_cite": "§23(h)(1),(3) as amended by P.L. 119-21 §70402(b)",
+  "cola_year": 2026,
+  "base_year": "2024",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Double substitution by §23(h)(3): start year 2025 for 2002 (indexing begins with taxable years beginning after Dec 31, 2025, i.e. 2026 is first indexed year) and 'calendar year 2024' for 'calendar year 2001'. Base year after 2016 → §1(f)(3)(C) form C-CPI-U(2025)/C-CPI-U(2024) − 1.",
+  "quotes": [
+   "“(4) Portion of credit refundable .— So much of the credit allowed under paragraph (1) as does not exceed $5,000 shall be treated as a credit allowed under subpart C and not as a credit allowed under this subpart.”",
+   "“(h) Adjustments for Inflation .— “(1) Effective date. In general .— In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in paragraphs (3) and (4) of subsection (a) and paragraphs (1) and 139 STAT. 214 (2)(A)(i) of subsection (b) shall be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) Determination. the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘calendar year 2001’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof.",
+   "“(2) Rounding .— If any amount as increased under paragraph (1) is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10.",
+   "“(3) Applicability. Special rule for refundable portion .— In the case of the dollar amount in subsection (a)(4), paragraph (1) shall be applied— “(A) by substituting ‘2025’ for ‘2002’ in the matter preceding subparagraph (A), and “(B) by substituting ‘calendar year 2024’ for ‘calendar year 2001’ in subparagraph (B) thereof.”"
+  ],
+  "source_files": [
+   "usc/23.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.05(1)",
+  "id": "ctc_max_per_child",
+  "label": "Child tax credit, maximum per qualifying child (§24(a) via §24(h)(2))",
+  "irs_value": "2200",
+  "kind": "indexed",
+  "base_amount": "2200",
+  "base_amount_cite": "§24(h)(2) as amended by P.L. 119-21 §70104(a)(2) (substitutes \"$2,200\" for \"$1,000\" in §24(a))",
+  "index_cite": "§24(i)(2),(3) as amended by P.L. 119-21 §70104(c)",
+  "cola_year": 2026,
+  "base_year": "2024",
+  "rounding": {
+   "multiple": "100",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Indexing starts with taxable years beginning after 2025 (2026 is first indexed year). §24(h)(1) as amended applies (h) to all taxable years after 2017 (sunset struck).",
+  "quotes": [
+   "(2) in paragraph (2), by striking “ $2,000 ” and inserting “ $2,200 ”",
+   "(2) Credit amount\nSubsection (a) shall be applied by substituting \"$2,000\" for \"$1,000\".",
+   "“(2) Special rule for adjustment of credit amount .— In the case of a taxable year beginning after 2025, the $2,200 amount in subsection (h)(2) shall be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting ‘2024’ for ‘2016’ in subparagraph (A)(ii) thereof.",
+   "“(3) Rounding .— If any increase under this subsection is not a multiple of $100, such increase shall be rounded to the next lowest multiple of $100.”"
+  ],
+  "source_files": [
+   "usc/24.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.05(2)",
+  "id": "ctc_refundable_max",
+  "label": "Child tax credit, maximum refundable amount per child (§24(h)(5) / §24(d)(1)(A))",
+  "irs_value": "1700",
+  "kind": "indexed",
+  "base_amount": "1400",
+  "base_amount_cite": "§24(h)(5) as amended by P.L. 119-21 §70104(d)",
+  "index_cite": "§24(i)(1),(3) as amended by P.L. 119-21 §70104(c)",
+  "cola_year": 2026,
+  "base_year": "2017",
+  "rounding": {
+   "multiple": "100",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Statutory substitution is bare '2017' for '2016' (not 'calendar year 2017') — same effect. Base after 2016 → §1(f)(3)(C) form C-CPI-U(2025)/C-CPI-U(2017) − 1. Prior §24(h)(5)(B) (USCODE-2024) had the same rule (base 2017, next lowest $100) — moved to new (i)(1).",
+  "quotes": [
+   "“(5) Applicability. Maximum amount of refundable credit .— The amount determined under subsection (d)(1)(A) with respect to any qualifying child shall not exceed $1,400, and such subsection shall be applied without regard to paragraph (4) of this subsection.”",
+   "“(i) Effective dates. Inflation Adjustments .— “(1) Maximum amount of refundable credit .— In the case of a taxable year beginning after 2024, the $1,400 amount in subsection (h)(5) shall be increased by an amount equal to— “(A) such dollar amount, multiplied by “(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable 139 STAT. 161 year begins, determined by substituting ‘ 2017 ’ for ‘ 2016 ’ in subparagraph (A)(ii) thereof.",
+   "“(3) Rounding .— If any increase under this subsection is not a multiple of $100, such increase shall be rounded to the next lowest multiple of $100.”"
+  ],
+  "source_files": [
+   "usc/24.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_earned_income_amount_1",
+  "label": "EITC earned income amount, one qualifying child",
+  "irs_value": "13020",
+  "kind": "indexed",
+  "base_amount": "6330",
+  "base_amount_cite": "§32(b)(2)(A) table",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount (not the increase). Tie-break for exact $5 not specified.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "P.L. 119-21 does not amend §32(b), (i) or (j) (checked: no 'Section 32' amendments affecting indexing in plaw-119-21.txt). §32(n) (2021-only rules) is inapplicable."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_max_credit_1",
+  "label": "EITC maximum credit, one qualifying child",
+  "irs_value": "4427",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "34% * eitc_earned_income_amount_1",
+  "special": "Maximum credit = credit percentage × earned income amount (§32(a)(1)/(a)(2)(A)). Percentages are statutory, not indexed.",
+  "quotes": [
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]",
+   "there shall be allowed as a credit ... an amount equal to the credit percentage of so much of the taxpayer's earned income for the taxable year as does not exceed the earned income amount.",
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding of the product; Rev. Proc. shows whole dollars. Rounding convention (nearest dollar, half up?) must be inferred from IRS values — not from the Code."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_1_other",
+  "label": "EITC threshold phaseout amount, one qualifying child, all other filing statuses",
+  "irs_value": "23890",
+  "kind": "indexed",
+  "base_amount": "11610",
+  "base_amount_cite": "§32(b)(2)(A) table (phaseout amount)",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount. Tie-break not specified. Same base as 2 and 3+ children.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_1_mfj",
+  "label": "EITC threshold phaseout amount, one qualifying child, married filing jointly",
+  "irs_value": "31160",
+  "kind": "indexed",
+  "base_amount": "11610 + 5000",
+  "base_amount_cite": "§32(b)(2)(A) table + §32(b)(2)(B) ($5,000 joint-return increase)",
+  "index_cite": "§32(j)(1)(B)(i) and (ii)",
+  "cola_year": 2026,
+  "base_year": "1995 (for the (b)(2)(A) amount) / 2008 (for the $5,000)",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": "round10( 11610*(1+COLA_1995) + 5000*(1+COLA_2008) )",
+  "special": "Two components indexed with DIFFERENT base years: phaseout amount (base 1995) and $5,000 joint increase (base 2008). §32(j)(2)(A) rounds 'any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof)' — i.e. the combined MFJ phaseout amount is rounded once to the nearest $10. There is no separate rounding rule for the $5,000 increase.",
+  "quotes": [
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000.",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Reading A (text): sum the two unrounded indexed components, then round to nearest $10. Reading B (practice possibly): round each component separately to $10 (or round the $5,000 increase separately) and add. Results may differ by $10; main session should test both against 31,160 / 18,140."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_1_other",
+  "label": "EITC completed phaseout amount, one qualifying child, all other filing statuses",
+  "irs_value": "51593",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_1_other + eitc_max_credit_1 / 15.98%",
+  "special": "Income at which credit limitation in §32(a)(2) reaches zero: threshold + max credit / phaseout percentage.",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]"
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding; Rev. Proc. shows whole dollars. Whether IRS uses the rounded or unrounded maximum credit and whether it rounds/truncates the quotient is not stated — infer from values."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_1_mfj",
+  "label": "EITC completed phaseout amount, one qualifying child, married filing jointly",
+  "irs_value": "58863",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_1_mfj + eitc_max_credit_1 / 15.98%",
+  "special": "Same as other filers but with MFJ threshold (includes indexed §32(b)(2)(B) increase).",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Rounding convention not in Code (see eitc_phaseout_complete_*_other)."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_earned_income_amount_2",
+  "label": "EITC earned income amount, two qualifying children",
+  "irs_value": "18290",
+  "kind": "indexed",
+  "base_amount": "8890",
+  "base_amount_cite": "§32(b)(2)(A) table",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount (not the increase). Tie-break for exact $5 not specified. Statutory row is '2 or more qualifying children'.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_max_credit_2",
+  "label": "EITC maximum credit, two qualifying children",
+  "irs_value": "7316",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "40% * eitc_earned_income_amount_2",
+  "special": "Maximum credit = credit percentage × earned income amount (§32(a)(1)/(a)(2)(A)). Percentages are statutory, not indexed.",
+  "quotes": [
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]",
+   "there shall be allowed as a credit ... an amount equal to the credit percentage of so much of the taxpayer's earned income for the taxable year as does not exceed the earned income amount.",
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding of the product; Rev. Proc. shows whole dollars. Rounding convention (nearest dollar, half up?) must be inferred from IRS values — not from the Code."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_2_other",
+  "label": "EITC threshold phaseout amount, two qualifying children, all other filing statuses",
+  "irs_value": "23890",
+  "kind": "indexed",
+  "base_amount": "11610",
+  "base_amount_cite": "§32(b)(2)(A) table (phaseout amount)",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount. Tie-break not specified. Same base as 2 and 3+ children.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_2_mfj",
+  "label": "EITC threshold phaseout amount, two qualifying children, married filing jointly",
+  "irs_value": "31160",
+  "kind": "indexed",
+  "base_amount": "11610 + 5000",
+  "base_amount_cite": "§32(b)(2)(A) table + §32(b)(2)(B) ($5,000 joint-return increase)",
+  "index_cite": "§32(j)(1)(B)(i) and (ii)",
+  "cola_year": 2026,
+  "base_year": "1995 (for the (b)(2)(A) amount) / 2008 (for the $5,000)",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": "round10( 11610*(1+COLA_1995) + 5000*(1+COLA_2008) )",
+  "special": "Two components indexed with DIFFERENT base years: phaseout amount (base 1995) and $5,000 joint increase (base 2008). §32(j)(2)(A) rounds 'any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof)' — i.e. the combined MFJ phaseout amount is rounded once to the nearest $10. There is no separate rounding rule for the $5,000 increase.",
+  "quotes": [
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000.",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Reading A (text): sum the two unrounded indexed components, then round to nearest $10. Reading B (practice possibly): round each component separately to $10 (or round the $5,000 increase separately) and add. Results may differ by $10; main session should test both against 31,160 / 18,140."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_2_other",
+  "label": "EITC completed phaseout amount, two qualifying children, all other filing statuses",
+  "irs_value": "58629",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_2_other + eitc_max_credit_2 / 21.06%",
+  "special": "Income at which credit limitation in §32(a)(2) reaches zero: threshold + max credit / phaseout percentage.",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]"
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding; Rev. Proc. shows whole dollars. Whether IRS uses the rounded or unrounded maximum credit and whether it rounds/truncates the quotient is not stated — infer from values."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_2_mfj",
+  "label": "EITC completed phaseout amount, two qualifying children, married filing jointly",
+  "irs_value": "65899",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_2_mfj + eitc_max_credit_2 / 21.06%",
+  "special": "Same as other filers but with MFJ threshold (includes indexed §32(b)(2)(B) increase).",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Rounding convention not in Code (see eitc_phaseout_complete_*_other)."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_earned_income_amount_3",
+  "label": "EITC earned income amount, three or more qualifying children",
+  "irs_value": "18290",
+  "kind": "indexed",
+  "base_amount": "8890",
+  "base_amount_cite": "§32(b)(2)(A) table",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount (not the increase). Tie-break for exact $5 not specified. Statutory row is '2 or more qualifying children' — 3+ uses the same earned income amount/phaseout amount as 2 children; only percentages differ.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_max_credit_3",
+  "label": "EITC maximum credit, three or more qualifying children",
+  "irs_value": "8231",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "45% * eitc_earned_income_amount_3",
+  "special": "Maximum credit = credit percentage × earned income amount (§32(a)(1)/(a)(2)(A)). Percentages are statutory, not indexed.",
+  "quotes": [
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]",
+   "there shall be allowed as a credit ... an amount equal to the credit percentage of so much of the taxpayer's earned income for the taxable year as does not exceed the earned income amount.",
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding of the product; Rev. Proc. shows whole dollars. Rounding convention (nearest dollar, half up?) must be inferred from IRS values — not from the Code."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_3_other",
+  "label": "EITC threshold phaseout amount, three or more qualifying children, all other filing statuses",
+  "irs_value": "23890",
+  "kind": "indexed",
+  "base_amount": "11610",
+  "base_amount_cite": "§32(b)(2)(A) table (phaseout amount)",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount. Tie-break not specified. Same base as 2 and 3+ children.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_3_mfj",
+  "label": "EITC threshold phaseout amount, three or more qualifying children, married filing jointly",
+  "irs_value": "31160",
+  "kind": "indexed",
+  "base_amount": "11610 + 5000",
+  "base_amount_cite": "§32(b)(2)(A) table + §32(b)(2)(B) ($5,000 joint-return increase)",
+  "index_cite": "§32(j)(1)(B)(i) and (ii)",
+  "cola_year": 2026,
+  "base_year": "1995 (for the (b)(2)(A) amount) / 2008 (for the $5,000)",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": "round10( 11610*(1+COLA_1995) + 5000*(1+COLA_2008) )",
+  "special": "Two components indexed with DIFFERENT base years: phaseout amount (base 1995) and $5,000 joint increase (base 2008). §32(j)(2)(A) rounds 'any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof)' — i.e. the combined MFJ phaseout amount is rounded once to the nearest $10. There is no separate rounding rule for the $5,000 increase.",
+  "quotes": [
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000.",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Reading A (text): sum the two unrounded indexed components, then round to nearest $10. Reading B (practice possibly): round each component separately to $10 (or round the $5,000 increase separately) and add. Results may differ by $10; main session should test both against 31,160 / 18,140."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_3_other",
+  "label": "EITC completed phaseout amount, three or more qualifying children, all other filing statuses",
+  "irs_value": "62974",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_3_other + eitc_max_credit_3 / 21.06%",
+  "special": "Income at which credit limitation in §32(a)(2) reaches zero: threshold + max credit / phaseout percentage.",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]"
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding; Rev. Proc. shows whole dollars. Whether IRS uses the rounded or unrounded maximum credit and whether it rounds/truncates the quotient is not stated — infer from values."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_3_mfj",
+  "label": "EITC completed phaseout amount, three or more qualifying children, married filing jointly",
+  "irs_value": "70244",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_3_mfj + eitc_max_credit_3 / 21.06%",
+  "special": "Same as other filers but with MFJ threshold (includes indexed §32(b)(2)(B) increase).",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Rounding convention not in Code (see eitc_phaseout_complete_*_other)."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_earned_income_amount_0",
+  "label": "EITC earned income amount, no qualifying children",
+  "irs_value": "8680",
+  "kind": "indexed",
+  "base_amount": "4220",
+  "base_amount_cite": "§32(b)(2)(A) table",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount (not the increase). Tie-break for exact $5 not specified.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_max_credit_0",
+  "label": "EITC maximum credit, no qualifying children",
+  "irs_value": "664",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "7.65% * eitc_earned_income_amount_0",
+  "special": "Maximum credit = credit percentage × earned income amount (§32(a)(1)/(a)(2)(A)). Percentages are statutory, not indexed.",
+  "quotes": [
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]",
+   "there shall be allowed as a credit ... an amount equal to the credit percentage of so much of the taxpayer's earned income for the taxable year as does not exceed the earned income amount.",
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding of the product; Rev. Proc. shows whole dollars. Rounding convention (nearest dollar, half up?) must be inferred from IRS values — not from the Code."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_0_other",
+  "label": "EITC threshold phaseout amount, no qualifying children, all other filing statuses",
+  "irs_value": "10860",
+  "kind": "indexed",
+  "base_amount": "5280",
+  "base_amount_cite": "§32(b)(2)(A) table (phaseout amount)",
+  "index_cite": "§32(j)(1)(B)(i)",
+  "cola_year": 2026,
+  "base_year": "1995",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Rounding applies to the increased amount. Tie-break not specified.",
+  "quotes": [
+   "In the case of an eligible individual with:The earned income amount is:The phaseout amount is: 1 qualifying child $6,330 $11,610 / 2 or more qualifying children $8,890 $11,610 / No qualifying children $4,220 $5,280 [table §32(b)(2)(A), flattened]",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_threshold_0_mfj",
+  "label": "EITC threshold phaseout amount, no qualifying children, married filing jointly",
+  "irs_value": "18140",
+  "kind": "indexed",
+  "base_amount": "5280 + 5000",
+  "base_amount_cite": "§32(b)(2)(A) table + §32(b)(2)(B) ($5,000 joint-return increase)",
+  "index_cite": "§32(j)(1)(B)(i) and (ii)",
+  "cola_year": 2026,
+  "base_year": "1995 (for the (b)(2)(A) amount) / 2008 (for the $5,000)",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": "round10( 5280*(1+COLA_1995) + 5000*(1+COLA_2008) )",
+  "special": "Two components indexed with DIFFERENT base years: phaseout amount (base 1995) and $5,000 joint increase (base 2008). §32(j)(2)(A) rounds 'any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof)' — i.e. the combined MFJ phaseout amount is rounded once to the nearest $10. There is no separate rounding rule for the $5,000 increase.",
+  "quotes": [
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000.",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(A) In general\nIf any dollar amount in subsection (b)(2)(A) (after being increased under subparagraph (B) thereof), after being increased under paragraph (1), is not a multiple of $10, such dollar amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Reading A (text): sum the two unrounded indexed components, then round to nearest $10. Reading B (practice possibly): round each component separately to $10 (or round the $5,000 increase separately) and add. Results may differ by $10; main session should test both against 31,160 / 18,140."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_0_other",
+  "label": "EITC completed phaseout amount, no qualifying children, all other filing statuses",
+  "irs_value": "19540",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_0_other + eitc_max_credit_0 / 7.65%",
+  "special": "Income at which credit limitation in §32(a)(2) reaches zero: threshold + max credit / phaseout percentage.",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "1 qualifying child 34 15.98 / 2 qualifying children 40 21.06 / 3 or more qualifying children 45 21.06 / No qualifying children 7.65 7.65 [table §32(b)(1): credit percentage, phaseout percentage; flattened]"
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Code prescribes no rounding; Rev. Proc. shows whole dollars. Whether IRS uses the rounded or unrounded maximum credit and whether it rounds/truncates the quotient is not stated — infer from values."
+ },
+ {
+  "item": "4.06(1)",
+  "id": "eitc_phaseout_complete_0_mfj",
+  "label": "EITC completed phaseout amount, no qualifying children, married filing jointly",
+  "irs_value": "26820",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "eitc_phaseout_threshold_0_mfj + eitc_max_credit_0 / 7.65%",
+  "special": "Same as other filers but with MFJ threshold (includes indexed §32(b)(2)(B) increase).",
+  "quotes": [
+   "(2) Limitation\nThe amount of the credit allowable to a taxpayer under paragraph (1) for any taxable year shall not exceed the excess (if any) of—\n(A) the credit percentage of the earned income amount, over\n(B) the phaseout percentage of so much of the adjusted gross income (or, if greater, the earned income) of the taxpayer for the taxable year as exceeds the phaseout amount.",
+   "(B) Joint returns\nIn the case of a joint return filed by an eligible individual and such individual's spouse, the phaseout amount determined under subparagraph (A) shall be increased by $5,000."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": "Rounding convention not in Code (see eitc_phaseout_complete_*_other)."
+ },
+ {
+  "item": "4.06(2)",
+  "id": "eitc_investment_income_limit",
+  "label": "EITC disqualified (investment) income limit (§32(i)(1))",
+  "irs_value": "12200",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§32(i)(1)",
+  "index_cite": "§32(j)(1)(B)(iii)",
+  "cola_year": 2026,
+  "base_year": "2020",
+  "rounding": {
+   "multiple": "50",
+   "mode": "down",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Indexing for this amount starts with taxable years beginning after 2021. Base year after 2016 → §1(f)(3)(C) form C-CPI-U(2025)/C-CPI-U(2020) − 1. Rounding to next lowest $50 applies to the increased amount.",
+  "quotes": [
+   "No credit shall be allowed under subsection (a) for the taxable year if the aggregate amount of disqualified income of the taxpayer for the taxable year exceeds $10,000.",
+   "In the case of any taxable year beginning after 2015 (2021 in the case of the dollar amount in subsection (i)(1)), each of the dollar amounts in subsections (b)(2) and (i)(1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting in subparagraph (A)(ii) thereof—\n(i) in the case of amounts in subsection (b)(2)(A), \"calendar year 1995\" for \"calendar year 2016\",\n(ii) in the case of the $5,000 amount in subsection (b)(2)(B), \"calendar year 2008\" for \"calendar year 2016\", and\n(iii) in the case of the $10,000 amount in subsection (i)(1), \"calendar year 2020\" for \"calendar year 2016\".",
+   "(B) Disqualified income threshold amount\nIf the dollar amount in subsection (i)(1), after being increased under paragraph (1), is not a multiple of $50, such amount shall be rounded to the next lowest multiple of $50."
+  ],
+  "source_files": [
+   "usc/32.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.07",
+  "id": "lihtc_rehab_per_unit_min",
+  "label": "LIHTC rehabilitation expenditures, per low-income unit qualified basis (§42(e)(3)(A)(ii)(II))",
+  "irs_value": "8700",
+  "kind": "indexed",
+  "base_amount": "6000",
+  "base_amount_cite": "§42(e)(3)(A)(ii)(II)",
+  "index_cite": "§42(e)(3)(D)",
+  "cola_year": 2026,
+  "base_year": "2008",
+  "rounding": {
+   "multiple": "100",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Year = calendar year in which expenditures are treated as placed in service (§42(e)(4)); Rev. Proc. §5.03 applies 4.07 to calendar year 2026. Tie-break not specified.",
+  "quotes": [
+   "(II) The requirement of this subclause is met if the qualified basis attributable to such amount, when divided by the number of low-income units in the building, is $6,000 or more.",
+   "In the case of any expenditures which are treated under paragraph (4) as placed in service during any calendar year after 2009, the $6,000 amount in subparagraph (A)(ii)(II) shall be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2008\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase under the preceding sentence which is not a multiple of $100 shall be rounded to the nearest multiple of $100."
+  ],
+  "source_files": [
+   "usc/42.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.08",
+  "id": "lihtc_state_ceiling_per_capita",
+  "label": "LIHTC State housing credit ceiling, per-capita amount",
+  "irs_value": "3.416",
+  "kind": "indexed",
+  "base_amount": "1.75",
+  "base_amount_cite": "§42(h)(3)(C)(ii)(I)",
+  "index_cite": "§42(h)(3)(H); then §42(h)(3)(I) as amended by P.L. 119-21 §70422(a)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "0.05",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": "1.12 * (1.75 + floor_to_0.05(1.75 * COLA_2001))",
+  "special": "Two steps: (1) §42(h)(3)(H) indexing, increase rounded to next lowest 5 cents; (2) §42(h)(3)(I): result multiplied by 1.12, NO rounding after multiplication (IRS value 3.416 has 3 decimals). The 1.12 multiplier is permanent from calendar 2026 (was 1.125 for 2018–2021 only).",
+  "quotes": [
+   "(I) $1.75 multiplied by the State population, or",
+   "(i) In general\nIn the case of a calendar year after 2002, the $2,000,000 and $1.75 amounts in subparagraph (C) shall each be increased by an amount equal to—\n(I) such dollar amount, multiplied by\n(II) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.",
+   "(II) In the case of the $1.75 amount, any increase under clause (i) which is not a multiple of 5 cents shall be rounded to the next lowest multiple of 5 cents.",
+   "In the case of calendar years 2018, 2019, 2020, and 2021, each of the dollar amounts in effect under clauses (I) and (II) of subparagraph (C)(ii) for any calendar year (after any increase under subparagraph (H)) shall be increased by multiplying such dollar amount by 1.125. [USCODE-2024 text]",
+   "Section 42(h)(3)(I) is amended — (A) by striking “ 2018, 2019, 2020, and 2021, ” and inserting “ beginning after December 31, 2025, ”, (B) by striking “ 1.125 ” and inserting “ 1.12 ”",
+   "[resulting text, assembled] In the case of calendar years beginning after December 31, 2025, each of the dollar amounts in effect under clauses (I) and (II) of subparagraph (C)(ii) for any calendar year (after any increase under subparagraph (H)) shall be increased by multiplying such dollar amount by 1.12."
+  ],
+  "source_files": [
+   "usc/42.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.08",
+  "id": "lihtc_state_ceiling_minimum",
+  "label": "LIHTC State housing credit ceiling, minimum (small-State) amount",
+  "irs_value": "3953600",
+  "kind": "indexed",
+  "base_amount": "2000000",
+  "base_amount_cite": "§42(h)(3)(C)(ii)(II)",
+  "index_cite": "§42(h)(3)(H); then §42(h)(3)(I) as amended by P.L. 119-21 §70422(a)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "5000",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": "1.12 * (2000000 + floor_to_5000(2000000 * COLA_2001))",
+  "special": "Two steps: (H) indexing with increase rounded to next lowest $5,000; then (I) ×1.12 with no further rounding.",
+  "quotes": [
+   "(II) $2,000,000,",
+   "(i) In general\nIn the case of a calendar year after 2002, the $2,000,000 and $1.75 amounts in subparagraph (C) shall each be increased by an amount equal to—\n(I) such dollar amount, multiplied by\n(II) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.",
+   "(I) In the case of the $2,000,000 amount, any increase under clause (i) which is not a multiple of $5,000 shall be rounded to the next lowest multiple of $5,000.",
+   "Section 42(h)(3)(I) is amended — (A) by striking “ 2018, 2019, 2020, and 2021, ” and inserting “ beginning after December 31, 2025, ”, (B) by striking “ 1.125 ” and inserting “ 1.12 ”",
+   "[resulting text, assembled] In the case of calendar years beginning after December 31, 2025, each of the dollar amounts in effect under clauses (I) and (II) of subparagraph (C)(ii) for any calendar year (after any increase under subparagraph (H)) shall be increased by multiplying such dollar amount by 1.12."
+  ],
+  "source_files": [
+   "usc/42.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.09",
+  "id": "sbhic_average_wage_amount",
+  "label": "Small employer health insurance credit, dollar amount (§45R(d)(3)(B))",
+  "irs_value": "34100",
+  "kind": "indexed",
+  "base_amount": "25000",
+  "base_amount_cite": "§45R(d)(3)(B)(i)",
+  "index_cite": "§45R(d)(3)(B)(ii)",
+  "cola_year": 2026,
+  "base_year": "2012",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Statute says '$25,000, multiplied by the cost-of-living adjustment' (literally the COLA percentage); read as $25,000 × (1 + COLA) — same in 26 CFR 1.45R-3(c)(2). Used in §45R(c)(2) and, doubled, in §45R(d)(1)(B).",
+  "quotes": [
+   "In the case of a taxable year beginning in a calendar year after 2013, the dollar amount in effect under this paragraph shall be equal to $25,000, multiplied by the cost-of-living adjustment under section 1(f)(3) for the calendar year, determined by substituting \"calendar year 2012\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.",
+   "(2) $25,000 dollar amount adjusted for inflation. For taxable years beginning in a calendar year after 2013, each reference to “$25,000” in paragraph (c)(1) of this section is replaced with a dollar amount equal to $25,000 multiplied by the cost-of-living adjustment under section 1(f)(3) for the calendar year, determined by substituting “calendar year 2012” for “calendar year 1992” in section 1(f)(3)(B). [26 CFR 1.45R-3(c)(2), eCFR 2025-10-01]"
+  ],
+  "source_files": [
+   "usc/45R.txt",
+   "ecfr/1.45R-3.txt"
+  ],
+  "doubts": "Neither §45R nor 26 CFR 1.45R-2/-3 contains a rounding rule for this amount (the $1,000 round-down in §45R(d)(3)(A) applies to the employer's average wages, not to the threshold). IRS value $34,100 is a multiple of $100 — IRS apparently rounds (nearest $100? down?); infer from arithmetic. Also the literal 'multiplied by the COLA' drafting issue."
+ },
+ {
+  "item": "4.12",
+  "id": "educator_expense_limit",
+  "label": "Eligible educator expenses above-the-line deduction limit (§62(a)(2)(D))",
+  "irs_value": "350",
+  "kind": "indexed",
+  "base_amount": "250",
+  "base_amount_cite": "§62(a)(2)(D)",
+  "index_cite": "§62(d)(3)",
+  "cola_year": 2026,
+  "base_year": "2014",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Tie-break not specified. P.L. 119-21 §70110 touches §67(g) (educator expenses as itemized), not this limit or its indexing.",
+  "quotes": [
+   "The deductions allowed by section 162 which consist of expenses, not in excess of $250, paid or incurred by an eligible educator—",
+   "In the case of any taxable year beginning after 2015, the $250 amount in subsection (a)(2)(D) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2014\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence shall be rounded to the nearest multiple of $50."
+  ],
+  "source_files": [
+   "usc/62.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.15",
+  "id": "health_fsa_salary_reduction_limit",
+  "label": "Health FSA salary reduction limit (§125(i))",
+  "irs_value": "3400",
+  "kind": "indexed",
+  "base_amount": "2500",
+  "base_amount_cite": "§125(i)(1)",
+  "index_cite": "§125(i)(2)",
+  "cola_year": 2026,
+  "base_year": "2012",
+  "rounding": {
+   "multiple": "50",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Applies to plan's taxable/plan year beginning in 2026.",
+  "quotes": [
+   "the cafeteria plan provides that an employee may not elect for any taxable year to have salary reduction contributions in excess of $2,500 made to such arrangement.",
+   "In the case of any taxable year beginning after December 31, 2013, the dollar amount in paragraph (1) shall be increased by an amount equal to—\n(A) such amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which such taxable year begins by substituting \"calendar year 2012\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any increase determined under this paragraph is not a multiple of $50, such increase shall be rounded to the next lowest multiple of $50."
+  ],
+  "source_files": [
+   "usc/125.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.15",
+  "id": "health_fsa_carryover_max",
+  "label": "Health FSA maximum carryover of unused amounts",
+  "irs_value": "680",
+  "kind": "not_code_indexed",
+  "base_amount": "500",
+  "base_amount_cite": "Notice 2013-71 ($500); modified by Notice 2020-33 §III.A",
+  "index_cite": "Notice 2020-33 §III.A (not the Code)",
+  "cola_year": 2026,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "0.20 * health_fsa_salary_reduction_limit",
+  "special": "NOT in the Code. Notice 2020-33 sets the maximum carryover equal to 20% of the §125(i) limit for that plan year; since §125(i) increases are multiples of $50, carryover moves in $10 steps. No separate rounding. Rev. Proc. 4.15 pairs $680 with 2026 limit $3,400 (carryover from a plan year beginning in 2026 into 2027).",
+  "quotes": [
+   "Specifically, this notice increases the maximum $500 carryover amount for a plan year to an amount equal to 20 percent of the maximum salary reduction contribution under § 125(i) for that plan year. Because, by statute, the increase to the § 125(i) limit is rounded to the next lowest multiple of $50, increases to the maximum carryover amount, as the result of that indexing, will be in multiples of $10 (20 percent of any $50 increase to the § 125(i) limit). [Notice 2020-33, irs.gov/pub/irs-drop/n-20-33.pdf]"
+  ],
+  "source_files": [
+   "ecfr/n-20-33.txt"
+  ],
+  "doubts": "Source is sub-regulatory guidance (Notice 2013-71 as modified by Notice 2020-33), not the Code; Notice 2013-71 itself was not fetched."
+ },
+ {
+  "item": "4.16",
+  "id": "qtf_monthly_transit_vanpool",
+  "label": "Qualified transportation fringe monthly limit, commuter highway vehicle + transit pass (§132(f)(2)(A))",
+  "irs_value": "340",
+  "kind": "indexed",
+  "base_amount": "175",
+  "base_amount_cite": "§132(f)(2)(A)",
+  "index_cite": "§132(f)(6) as amended by P.L. 119-21 §70112(b)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "5",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "BASE YEAR CHANGED: P.L. 119-21 §70112(b) replaced 1998 with 1997 for taxable years beginning after 2025 (USCODE-2024 file still shows 1998). Also §70112(a) struck §132(f)(2)(C) (bicycle).",
+  "quotes": [
+   "(A) $175 per month in the case of the aggregate of the benefits described in subparagraphs (A) and (B) of paragraph (1),\n(B) $175 per month in the case of qualified parking, and",
+   "In the case of any taxable year beginning in a calendar year after 1999, the dollar amounts contained in subparagraphs (A) and (B) of paragraph (2) shall be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 1998\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. [USCODE-2024]",
+   "(b) Inflation Adjustment .— Clause (ii) of section 132(f)(6)(A) is amended by striking “ 1998 ” in clause (ii) and inserting “ 1997 ”. ... (d) 26 USC 132 note . Effective Date .— The amendments made by this section shall apply to taxable years beginning after December 31, 2025. [P.L. 119-21 §70112]",
+   "If any increase determined under subparagraph (A) is not a multiple of $5, such increase shall be rounded to the next lowest multiple of $5."
+  ],
+  "source_files": [
+   "usc/132.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.16",
+  "id": "qtf_monthly_parking",
+  "label": "Qualified transportation fringe monthly limit, qualified parking (§132(f)(2)(B))",
+  "irs_value": "340",
+  "kind": "indexed",
+  "base_amount": "175",
+  "base_amount_cite": "§132(f)(2)(B)",
+  "index_cite": "§132(f)(6) as amended by P.L. 119-21 §70112(b)",
+  "cola_year": 2026,
+  "base_year": "1997",
+  "rounding": {
+   "multiple": "5",
+   "mode": "down",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "BASE YEAR CHANGED: P.L. 119-21 §70112(b) replaced 1998 with 1997 for taxable years beginning after 2025 (USCODE-2024 file still shows 1998). Also §70112(a) struck §132(f)(2)(C) (bicycle).",
+  "quotes": [
+   "(A) $175 per month in the case of the aggregate of the benefits described in subparagraphs (A) and (B) of paragraph (1),\n(B) $175 per month in the case of qualified parking, and",
+   "In the case of any taxable year beginning in a calendar year after 1999, the dollar amounts contained in subparagraphs (A) and (B) of paragraph (2) shall be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, by substituting \"calendar year 1998\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. [USCODE-2024]",
+   "(b) Inflation Adjustment .— Clause (ii) of section 132(f)(6)(A) is amended by striking “ 1998 ” in clause (ii) and inserting “ 1997 ”. ... (d) 26 USC 132 note . Effective Date .— The amendments made by this section shall apply to taxable years beginning after December 31, 2025. [P.L. 119-21 §70112]",
+   "If any increase determined under subparagraph (A) is not a multiple of $5, such increase shall be rounded to the next lowest multiple of $5."
+  ],
+  "source_files": [
+   "usc/132.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.17",
+  "id": "savings_bond_phaseout_joint",
+  "label": "Savings bond interest exclusion, MAGI phaseout threshold, joint return",
+  "irs_value": "152650",
+  "kind": "indexed",
+  "base_amount": "60000",
+  "base_amount_cite": "§135(b)(2)(A)",
+  "index_cite": "§135(b)(2)(B),(C)",
+  "cola_year": 2026,
+  "base_year": "1989",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Explicit tie-break: amount that is a multiple of $25 rounds UP to next multiple of $50.",
+  "quotes": [
+   "If the modified adjusted gross income of the taxpayer for the taxable year exceeds $40,000 ($60,000 in the case of a joint return), the amount which would (but for this paragraph) be excludable from gross income under subsection (a) shall be reduced (but not below zero) by the amount which bears the same ratio to the amount which would be so excludable as such excess bears to $15,000 ($30,000 in the case of a joint return).",
+   "In the case of any taxable year beginning in a calendar year after 1990, the $40,000 and $60,000 amounts contained in subparagraph (A) shall be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 1989\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.",
+   "If any amount as adjusted under subparagraph (B) is not a multiple of $50, such amount shall be rounded to the nearest multiple of $50 (or if such amount is a multiple of $25, such amount shall be rounded to the next highest multiple of $50)."
+  ],
+  "source_files": [
+   "usc/135.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.17",
+  "id": "savings_bond_phaseout_other",
+  "label": "Savings bond interest exclusion, MAGI phaseout threshold, other returns",
+  "irs_value": "101800",
+  "kind": "indexed",
+  "base_amount": "40000",
+  "base_amount_cite": "§135(b)(2)(A)",
+  "index_cite": "§135(b)(2)(B),(C)",
+  "cola_year": 2026,
+  "base_year": "1989",
+  "rounding": {
+   "multiple": "50",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Explicit tie-break: multiple of $25 rounds UP.",
+  "quotes": [
+   "If the modified adjusted gross income of the taxpayer for the taxable year exceeds $40,000 ($60,000 in the case of a joint return), the amount which would (but for this paragraph) be excludable from gross income under subsection (a) shall be reduced (but not below zero) by the amount which bears the same ratio to the amount which would be so excludable as such excess bears to $15,000 ($30,000 in the case of a joint return).",
+   "In the case of any taxable year beginning in a calendar year after 1990, the $40,000 and $60,000 amounts contained in subparagraph (A) shall be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 1989\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.",
+   "If any amount as adjusted under subparagraph (B) is not a multiple of $50, such amount shall be rounded to the nearest multiple of $50 (or if such amount is a multiple of $25, such amount shall be rounded to the next highest multiple of $50)."
+  ],
+  "source_files": [
+   "usc/135.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.17",
+  "id": "savings_bond_phaseout_complete_joint",
+  "label": "Savings bond interest exclusion, fully phased out, joint return",
+  "irs_value": "182650",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "savings_bond_phaseout_joint + 30000",
+  "special": "Phaseout range $30,000 (joint) is not indexed.",
+  "quotes": [
+   "If the modified adjusted gross income of the taxpayer for the taxable year exceeds $40,000 ($60,000 in the case of a joint return), the amount which would (but for this paragraph) be excludable from gross income under subsection (a) shall be reduced (but not below zero) by the amount which bears the same ratio to the amount which would be so excludable as such excess bears to $15,000 ($30,000 in the case of a joint return)."
+  ],
+  "source_files": [
+   "usc/135.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.17",
+  "id": "savings_bond_phaseout_complete_other",
+  "label": "Savings bond interest exclusion, fully phased out, other returns",
+  "irs_value": "116800",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "savings_bond_phaseout_other + 15000",
+  "special": "Phaseout range $15,000 is not indexed.",
+  "quotes": [
+   "If the modified adjusted gross income of the taxpayer for the taxable year exceeds $40,000 ($60,000 in the case of a joint return), the amount which would (but for this paragraph) be excludable from gross income under subsection (a) shall be reduced (but not below zero) by the amount which bears the same ratio to the amount which would be so excludable as such excess bears to $15,000 ($30,000 in the case of a joint return)."
+  ],
+  "source_files": [
+   "usc/135.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.18",
+  "id": "adoption_assistance_special_needs",
+  "label": "Adoption assistance exclusion, child with special needs (§137(a)(2))",
+  "irs_value": "17670",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§137(a)(2)",
+  "index_cite": "§137(f)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "Same base/index as §23; P.L. 119-21 does not amend §137 (no refundable-portion analogue).",
+  "quotes": [
+   "the qualified adoption expenses with respect to such adoption for such year shall be increased by an amount equal to the excess (if any) of $10,000 over the actual aggregate qualified adoption expenses",
+   "In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in subsection (a)(2) and paragraphs (1) and (2)(A) of subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any amount as increased under the preceding sentence is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/137.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.18",
+  "id": "adoption_assistance_dollar_limit",
+  "label": "Adoption assistance exclusion, maximum (§137(b)(1))",
+  "irs_value": "17670",
+  "kind": "indexed",
+  "base_amount": "10000",
+  "base_amount_cite": "§137(b)(1)",
+  "index_cite": "§137(f)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "",
+  "quotes": [
+   "The aggregate of the amounts paid or expenses incurred which may be taken into account under subsection (a) for all taxable years with respect to the adoption of a child by the taxpayer shall not exceed $10,000.",
+   "In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in subsection (a)(2) and paragraphs (1) and (2)(A) of subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any amount as increased under the preceding sentence is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/137.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.18",
+  "id": "adoption_assistance_phaseout_threshold",
+  "label": "Adoption assistance exclusion, MAGI phaseout threshold (§137(b)(2)(A))",
+  "irs_value": "265080",
+  "kind": "indexed",
+  "base_amount": "150000",
+  "base_amount_cite": "§137(b)(2)(A)",
+  "index_cite": "§137(f)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "",
+  "quotes": [
+   "(A) the amount (if any) by which the taxpayer's adjusted gross income exceeds $150,000, bears to",
+   "In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in subsection (a)(2) and paragraphs (1) and (2)(A) of subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any amount as increased under the preceding sentence is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/137.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.18",
+  "id": "adoption_assistance_phaseout_complete",
+  "label": "Adoption assistance exclusion, fully phased out",
+  "irs_value": "305080",
+  "kind": "derived",
+  "base_amount": null,
+  "base_amount_cite": "",
+  "index_cite": "",
+  "cola_year": 2026,
+  "base_year": "2016",
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": "adoption_assistance_phaseout_threshold + 40000",
+  "special": "$40,000 in §137(b)(2)(B) is not indexed by §137(f).",
+  "quotes": [
+   "(B) $40,000.",
+   "In the case of a taxable year beginning after December 31, 2002, each of the dollar amounts in subsection (a)(2) and paragraphs (1) and (2)(A) of subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any amount as increased under the preceding sentence is not a multiple of $10, such amount shall be rounded to the nearest multiple of $10."
+  ],
+  "source_files": [
+   "usc/137.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.19",
+  "id": "pab_volume_cap_per_capita",
+  "label": "Private activity bond volume cap, per-capita amount",
+  "irs_value": "135",
+  "kind": "indexed",
+  "base_amount": "75",
+  "base_amount_cite": "§146(d)(1)(A)",
+  "index_cite": "§146(d)(2)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "5",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Base is $75 (the parenthetical $62.50 is for calendar 2001 only). Tie-break not specified.",
+  "quotes": [
+   "(A) an amount equal to $75 ($62.50 in the case of calendar year 2001) multiplied by the State population, or\n(B) $225,000,000 ($187,500,000 in the case of calendar year 2001).",
+   "In the case of a calendar year after 2002, each of the dollar amounts contained in paragraph (1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any increase determined under the preceding sentence is not a multiple of $5 ($5,000 in the case of the dollar amount in paragraph (1)(B)), such increase shall be rounded to the nearest multiple thereof."
+  ],
+  "source_files": [
+   "usc/146.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.19",
+  "id": "pab_volume_cap_minimum",
+  "label": "Private activity bond volume cap, State minimum",
+  "irs_value": "397625000",
+  "kind": "indexed",
+  "base_amount": "225000000",
+  "base_amount_cite": "§146(d)(1)(B)",
+  "index_cite": "§146(d)(2)",
+  "cola_year": 2026,
+  "base_year": "2001",
+  "rounding": {
+   "multiple": "5000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Tie-break not specified.",
+  "quotes": [
+   "(A) an amount equal to $75 ($62.50 in the case of calendar year 2001) multiplied by the State population, or\n(B) $225,000,000 ($187,500,000 in the case of calendar year 2001).",
+   "In the case of a calendar year after 2002, each of the dollar amounts contained in paragraph (1) shall be increased by an amount equal to—\n(A) such dollar amount, multiplied by\n(B) the cost-of-living adjustment determined under section 1(f)(3) for such calendar year by substituting \"calendar year 2001\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any increase determined under the preceding sentence is not a multiple of $5 ($5,000 in the case of the dollar amount in paragraph (1)(B)), such increase shall be rounded to the nearest multiple thereof."
+  ],
+  "source_files": [
+   "usc/146.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.20",
+  "id": "ag_bond_first_time_farmer_limit",
+  "label": "Agricultural bonds, first-time farmer loan limit (§147(c)(2)(A))",
+  "irs_value": "682700",
+  "kind": "indexed",
+  "base_amount": "450000",
+  "base_amount_cite": "§147(c)(2)(A) (as amended by P.L. 110-246 §15341(a))",
+  "index_cite": "§147(c)(2)(H)",
+  "cola_year": 2026,
+  "base_year": "2007",
+  "rounding": {
+   "multiple": "100",
+   "mode": "nearest",
+   "applies_to": "amount"
+  },
+  "derived_formula": null,
+  "special": "'for the calendar year' — calendar year 2026 (Rev. Proc. §5.03). Tie-break not specified.",
+  "quotes": [
+   "but only to the extent of expenditures (financed with the proceeds of the issue) not in excess of $450,000.",
+   "In the case of any calendar year after 2008, the dollar amount in subparagraph (A) shall be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year, determined by substituting \"calendar year 2007\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nIf any amount as increased under the preceding sentence is not a multiple of $100, such amount shall be rounded to the nearest multiple of $100."
+  ],
+  "source_files": [
+   "usc/147.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.21",
+  "id": "arbitrage_computation_credit",
+  "label": "Arbitrage rebate computation credit (26 CFR 1.148-3(d)(4))",
+  "irs_value": "2170",
+  "kind": "not_code_indexed",
+  "base_amount": "1400",
+  "base_amount_cite": "26 CFR 1.148-3(d)(1)(iv)",
+  "index_cite": "26 CFR 1.148-3(d)(4)",
+  "cola_year": 2026,
+  "base_year": "2006",
+  "rounding": {
+   "multiple": "10",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Regulatory, not Code. 'for such year' = calendar year in which the bond year ends; Rev. Proc. applies to bond years ending in 2026. Tie-break not specified.",
+  "quotes": [
+   "a computation credit of $1,400 for any bond year ending in 2007 and, for bond years ending after 2007, a computation credit in the amount determined under paragraph (d)(4) of this section",
+   "(4) Cost-of-living adjustment. For any calendar year after 2007, the $1,400 computation credit set forth in paragraph (d)(1)(iv) of this section shall be increased by an amount equal to such dollar amount multiplied by the cost-of-living adjustment determined under section 1(f)(3) for such year, as modified by this paragraph (d)(4). In applying section 1(f)(3) to determine this cost-of-living adjustment, the reference to “calendar year 1992” in section 1(f)(3)(B) shall be changed to “calendar year 2006.” If any such increase determined under this paragraph (d)(4) is not a multiple of $10, such increase shall be rounded to the nearest multiple thereof."
+  ],
+  "source_files": [
+   "ecfr/1.148-3.txt"
+  ],
+  "doubts": "Regulation still speaks of pre-TCJA §1(f)(3)(B) ('calendar year 1992'); post-TCJA §1(f)(3) has 'calendar year 2016' in (A)(ii) and uses C-CPI-U. Presumed IRS reading: current §1(f)(3) with the stated year as base (pre-2016 base → CPI(base)×C-CPI-U(2016)/CPI(2016) in denominator). Not stated in the regulation. Source: eCFR versioner API, title 26 as of 2025-10-01."
+ },
+ {
+  "item": "4.22",
+  "id": "gic_broker_fee_cap",
+  "label": "GIC broker fee safe harbor, per-contract cap ((B)(1)(i)(A))",
+  "irs_value": "51000",
+  "kind": "not_code_indexed",
+  "base_amount": "30000",
+  "base_amount_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(1)",
+  "index_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(3),(4)",
+  "cola_year": 2026,
+  "base_year": "2003",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Regulatory, not Code. Year = calendar year the GIC/escrow investments are acquired ((B)(5)). Tie-break not specified. Per-issue cap partially used in prior years is rescaled under (B)(6).",
+  "quotes": [
+   "( i ) The amount of the fee that the issuer treats as a qualified administrative cost does not exceed the lesser of: ( A ) $30,000 and ( B ) 0.2% of the computational base or, if more, $3,000; and ( ii ) For any issue, the issuer does not treat as qualified administrative costs more than $85,000 in brokers' commissions or similar fees",
+   "( 3 ) Cost-of-living adjustment. In the case of a calendar year after 2004, each of the dollar amounts in paragraph (e)(2)(iii)(B)( 1 ) of this section shall be increased by an amount equal to— ( i ) Such dollar amount; multiplied by ( ii ) The cost-of-living adjustment determined under section 1(f)(3) for such calendar year by using the language “calendar year 2003” instead of “calendar year 1992” in section 1(f)(3)(B). ( 4 ) Rounding. If any increase determined under paragraph (e)(2)(iii)(B)( 3 ) of this section is not a multiple of $1,000, such increase shall be rounded to the nearest multiple thereof.",
+   "( 5 ) Applicable year for cost-of-living adjustment. The cost-of-living adjustments under paragraph (e)(2)(iii)(B)( 3 ) of this section shall apply to the safe harbor amounts under paragraph (e)(2)(iii)(B)( 1 ) of this section based on the year the guaranteed investment contract or the investments for the yield restricted defeasance escrow, as applicable, are acquired."
+  ],
+  "source_files": [
+   "ecfr/1.148-5.txt"
+  ],
+  "doubts": "Regulation still speaks of pre-TCJA §1(f)(3)(B) ('calendar year 1992'); post-TCJA §1(f)(3) has 'calendar year 2016' in (A)(ii) and uses C-CPI-U. Presumed IRS reading: current §1(f)(3) with the stated year as base (pre-2016 base → CPI(base)×C-CPI-U(2016)/CPI(2016) in denominator). Not stated in the regulation."
+ },
+ {
+  "item": "4.22",
+  "id": "gic_broker_fee_floor",
+  "label": "GIC broker fee safe harbor, minimum ('if more') amount ((B)(1)(i)(B))",
+  "irs_value": "5000",
+  "kind": "not_code_indexed",
+  "base_amount": "3000",
+  "base_amount_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(1)",
+  "index_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(3),(4)",
+  "cola_year": 2026,
+  "base_year": "2003",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Regulatory, not Code. Year = calendar year the GIC/escrow investments are acquired ((B)(5)). Tie-break not specified. Per-issue cap partially used in prior years is rescaled under (B)(6).",
+  "quotes": [
+   "( i ) The amount of the fee that the issuer treats as a qualified administrative cost does not exceed the lesser of: ( A ) $30,000 and ( B ) 0.2% of the computational base or, if more, $3,000; and ( ii ) For any issue, the issuer does not treat as qualified administrative costs more than $85,000 in brokers' commissions or similar fees",
+   "( 3 ) Cost-of-living adjustment. In the case of a calendar year after 2004, each of the dollar amounts in paragraph (e)(2)(iii)(B)( 1 ) of this section shall be increased by an amount equal to— ( i ) Such dollar amount; multiplied by ( ii ) The cost-of-living adjustment determined under section 1(f)(3) for such calendar year by using the language “calendar year 2003” instead of “calendar year 1992” in section 1(f)(3)(B). ( 4 ) Rounding. If any increase determined under paragraph (e)(2)(iii)(B)( 3 ) of this section is not a multiple of $1,000, such increase shall be rounded to the nearest multiple thereof.",
+   "( 5 ) Applicable year for cost-of-living adjustment. The cost-of-living adjustments under paragraph (e)(2)(iii)(B)( 3 ) of this section shall apply to the safe harbor amounts under paragraph (e)(2)(iii)(B)( 1 ) of this section based on the year the guaranteed investment contract or the investments for the yield restricted defeasance escrow, as applicable, are acquired."
+  ],
+  "source_files": [
+   "ecfr/1.148-5.txt"
+  ],
+  "doubts": "Regulation still speaks of pre-TCJA §1(f)(3)(B) ('calendar year 1992'); post-TCJA §1(f)(3) has 'calendar year 2016' in (A)(ii) and uses C-CPI-U. Presumed IRS reading: current §1(f)(3) with the stated year as base (pre-2016 base → CPI(base)×C-CPI-U(2016)/CPI(2016) in denominator). Not stated in the regulation."
+ },
+ {
+  "item": "4.22",
+  "id": "gic_broker_fee_per_issue",
+  "label": "GIC broker fee safe harbor, per-issue aggregate ((B)(1)(ii))",
+  "irs_value": "145000",
+  "kind": "not_code_indexed",
+  "base_amount": "85000",
+  "base_amount_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(1)",
+  "index_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(3),(4)",
+  "cola_year": 2026,
+  "base_year": "2003",
+  "rounding": {
+   "multiple": "1000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Regulatory, not Code. Year = calendar year the GIC/escrow investments are acquired ((B)(5)). Tie-break not specified. Per-issue cap partially used in prior years is rescaled under (B)(6).",
+  "quotes": [
+   "( i ) The amount of the fee that the issuer treats as a qualified administrative cost does not exceed the lesser of: ( A ) $30,000 and ( B ) 0.2% of the computational base or, if more, $3,000; and ( ii ) For any issue, the issuer does not treat as qualified administrative costs more than $85,000 in brokers' commissions or similar fees",
+   "( 3 ) Cost-of-living adjustment. In the case of a calendar year after 2004, each of the dollar amounts in paragraph (e)(2)(iii)(B)( 1 ) of this section shall be increased by an amount equal to— ( i ) Such dollar amount; multiplied by ( ii ) The cost-of-living adjustment determined under section 1(f)(3) for such calendar year by using the language “calendar year 2003” instead of “calendar year 1992” in section 1(f)(3)(B). ( 4 ) Rounding. If any increase determined under paragraph (e)(2)(iii)(B)( 3 ) of this section is not a multiple of $1,000, such increase shall be rounded to the nearest multiple thereof.",
+   "( 5 ) Applicable year for cost-of-living adjustment. The cost-of-living adjustments under paragraph (e)(2)(iii)(B)( 3 ) of this section shall apply to the safe harbor amounts under paragraph (e)(2)(iii)(B)( 1 ) of this section based on the year the guaranteed investment contract or the investments for the yield restricted defeasance escrow, as applicable, are acquired."
+  ],
+  "source_files": [
+   "ecfr/1.148-5.txt"
+  ],
+  "doubts": "Regulation still speaks of pre-TCJA §1(f)(3)(B) ('calendar year 1992'); post-TCJA §1(f)(3) has 'calendar year 2016' in (A)(ii) and uses C-CPI-U. Presumed IRS reading: current §1(f)(3) with the stated year as base (pre-2016 base → CPI(base)×C-CPI-U(2016)/CPI(2016) in denominator). Not stated in the regulation."
+ },
+ {
+  "item": "4.22",
+  "id": "gic_broker_fee_pct",
+  "label": "GIC broker fee safe harbor, percentage of computational base",
+  "irs_value": "0.2",
+  "kind": "fixed_statutory",
+  "base_amount": "0.2",
+  "base_amount_cite": "26 CFR 1.148-5(e)(2)(iii)(B)(1)(i)(B)",
+  "index_cite": "",
+  "cola_year": null,
+  "base_year": null,
+  "rounding": {
+   "multiple": null,
+   "mode": "none",
+   "applies_to": null
+  },
+  "derived_formula": null,
+  "special": "Fixed percentage in the regulation (0.2%), not indexed (only 'dollar amounts' are indexed). Value is a percent.",
+  "quotes": [
+   "( i ) The amount of the fee that the issuer treats as a qualified administrative cost does not exceed the lesser of: ( A ) $30,000 and ( B ) 0.2% of the computational base or, if more, $3,000; and ( ii ) For any issue, the issuer does not treat as qualified administrative costs more than $85,000 in brokers' commissions or similar fees"
+  ],
+  "source_files": [
+   "ecfr/1.148-5.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.24",
+  "id": "sec179_dollar_limit",
+  "label": "§179 expensing dollar limitation (§179(b)(1))",
+  "irs_value": "2560000",
+  "kind": "indexed",
+  "base_amount": "2500000",
+  "base_amount_cite": "§179(b)(1) as amended by P.L. 119-21 §70306(a)(1)",
+  "index_cite": "§179(b)(6) as amended by P.L. 119-21 §70306(b)",
+  "cola_year": 2026,
+  "base_year": "2024",
+  "rounding": {
+   "multiple": "10000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Indexing of (1),(2) starts with taxable years beginning after 2025 (first indexed year 2026). Tie-break not specified.",
+  "quotes": [
+   "(1) in paragraph (1), by striking “ $1,000,000 ” and inserting “ $2,500,000 ”",
+   "In the case of any taxable year beginning after 2018, the dollar amounts in paragraphs (1), (2), and (5)(A) shall each be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2017\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. [USCODE-2024]",
+   "(b) Conforming Amendments .— Section 179(b)(6)(A) is amended — (1) by inserting “ (2025 in the case of the dollar amounts in paragraphs (1) and (2)) ” after “ In the case of any taxable year beginning after 2018 ”, and (2) in clause (ii), by striking “ determined by substituting ‘calendar year 2017’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. ” and inserting \"determined by substituting in subparagraph (A)(ii) thereof— “ “(I) in the case of amounts in paragraphs (1) and (2), ‘calendar year 2024’ for ‘calendar year 2016’, and 139 STAT. 198 “(II) in the case of the amount in paragraph (5)(A), ‘calendar year 2017’ for ‘calendar year 2016’.” . (c) 26 USC 179 note . Effective Date .— The amendments made by this section shall apply to property placed in service in taxable years beginning after December 31, 2024.",
+   "(B) Rounding\nThe amount of any increase under subparagraph (A) shall be rounded to the nearest multiple of $10,000 ($100 in the case of any increase in the amount under paragraph (5)(A))."
+  ],
+  "source_files": [
+   "usc/179.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.24",
+  "id": "sec179_phaseout_threshold",
+  "label": "§179 investment phaseout threshold (§179(b)(2))",
+  "irs_value": "4090000",
+  "kind": "indexed",
+  "base_amount": "4000000",
+  "base_amount_cite": "§179(b)(2) as amended by P.L. 119-21 §70306(a)(2)",
+  "index_cite": "§179(b)(6) as amended by P.L. 119-21 §70306(b)",
+  "cola_year": 2026,
+  "base_year": "2024",
+  "rounding": {
+   "multiple": "10000",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Same rule as §179(b)(1).",
+  "quotes": [
+   "(2) in paragraph (2), by striking “ $2,500,000 ” and inserting “ $4,000,000 ”",
+   "In the case of any taxable year beginning after 2018, the dollar amounts in paragraphs (1), (2), and (5)(A) shall each be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2017\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. [USCODE-2024]",
+   "(b) Conforming Amendments .— Section 179(b)(6)(A) is amended — (1) by inserting “ (2025 in the case of the dollar amounts in paragraphs (1) and (2)) ” after “ In the case of any taxable year beginning after 2018 ”, and (2) in clause (ii), by striking “ determined by substituting ‘calendar year 2017’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. ” and inserting \"determined by substituting in subparagraph (A)(ii) thereof— “ “(I) in the case of amounts in paragraphs (1) and (2), ‘calendar year 2024’ for ‘calendar year 2016’, and 139 STAT. 198 “(II) in the case of the amount in paragraph (5)(A), ‘calendar year 2017’ for ‘calendar year 2016’.” . (c) 26 USC 179 note . Effective Date .— The amendments made by this section shall apply to property placed in service in taxable years beginning after December 31, 2024.",
+   "(B) Rounding\nThe amount of any increase under subparagraph (A) shall be rounded to the nearest multiple of $10,000 ($100 in the case of any increase in the amount under paragraph (5)(A))."
+  ],
+  "source_files": [
+   "usc/179.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.24",
+  "id": "sec179_suv_limit",
+  "label": "§179 sport utility vehicle cost limit (§179(b)(5)(A))",
+  "irs_value": "32000",
+  "kind": "indexed",
+  "base_amount": "25000",
+  "base_amount_cite": "§179(b)(5)(A)",
+  "index_cite": "§179(b)(6)(A)(ii)(II) as amended by P.L. 119-21 §70306(b)",
+  "cola_year": 2026,
+  "base_year": "2017",
+  "rounding": {
+   "multiple": "100",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Base year stays 2017 (only (1),(2) moved to 2024). Indexing since taxable years beginning after 2018.",
+  "quotes": [
+   "The cost of any sport utility vehicle for any taxable year which may be taken into account under this section shall not exceed $25,000.",
+   "In the case of any taxable year beginning after 2018, the dollar amounts in paragraphs (1), (2), and (5)(A) shall each be increased by an amount equal to—\n(i) such dollar amount, multiplied by\n(ii) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2017\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof. [USCODE-2024]",
+   "(b) Conforming Amendments .— Section 179(b)(6)(A) is amended — (1) by inserting “ (2025 in the case of the dollar amounts in paragraphs (1) and (2)) ” after “ In the case of any taxable year beginning after 2018 ”, and (2) in clause (ii), by striking “ determined by substituting ‘calendar year 2017’ for ‘calendar year 2016’ in subparagraph (A)(ii) thereof. ” and inserting \"determined by substituting in subparagraph (A)(ii) thereof— “ “(I) in the case of amounts in paragraphs (1) and (2), ‘calendar year 2024’ for ‘calendar year 2016’, and 139 STAT. 198 “(II) in the case of the amount in paragraph (5)(A), ‘calendar year 2017’ for ‘calendar year 2016’.” . (c) 26 USC 179 note . Effective Date .— The amendments made by this section shall apply to property placed in service in taxable years beginning after December 31, 2024.",
+   "(B) Rounding\nThe amount of any increase under subparagraph (A) shall be rounded to the nearest multiple of $10,000 ($100 in the case of any increase in the amount under paragraph (5)(A))."
+  ],
+  "source_files": [
+   "usc/179.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.25",
+  "id": "sec179d_base_value",
+  "label": "§179D applicable dollar value, base ($0.50)",
+  "irs_value": "0.59",
+  "kind": "indexed",
+  "base_amount": "0.50",
+  "base_amount_cite": "§179D(b)(2)",
+  "index_cite": "§179D(g)",
+  "cola_year": 2026,
+  "base_year": "2021",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Amounts in dollars with cents; increase rounded to nearest cent. Tie-break (exact half-cent) not specified. P.L. 119-21 §70507 adds §179D(i): 'This section shall not apply with respect to property the construction of which begins after June 30, 2026.' — does not change indexing.",
+  "quotes": [
+   "For purposes of paragraph (1)(A)(i), the applicable dollar value shall be an amount equal to $0.50 increased (but not above $1.00) by $0.02 for each percentage point by which the total annual energy and power costs for the building are certified to be reduced by a percentage greater than 25 percent.",
+   "In the case of a taxable year beginning after 2022, each dollar amount in subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2021\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence which is not a multiple of 1 cent shall be rounded to the nearest cent."
+  ],
+  "source_files": [
+   "usc/179D.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.25",
+  "id": "sec179d_base_cap",
+  "label": "§179D applicable dollar value, cap ($1.00)",
+  "irs_value": "1.19",
+  "kind": "indexed",
+  "base_amount": "1.00",
+  "base_amount_cite": "§179D(b)(2)",
+  "index_cite": "§179D(g)",
+  "cola_year": 2026,
+  "base_year": "2021",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Amounts in dollars with cents; increase rounded to nearest cent. Tie-break (exact half-cent) not specified. P.L. 119-21 §70507 adds §179D(i): 'This section shall not apply with respect to property the construction of which begins after June 30, 2026.' — does not change indexing.",
+  "quotes": [
+   "For purposes of paragraph (1)(A)(i), the applicable dollar value shall be an amount equal to $0.50 increased (but not above $1.00) by $0.02 for each percentage point by which the total annual energy and power costs for the building are certified to be reduced by a percentage greater than 25 percent.",
+   "In the case of a taxable year beginning after 2022, each dollar amount in subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2021\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence which is not a multiple of 1 cent shall be rounded to the nearest cent."
+  ],
+  "source_files": [
+   "usc/179D.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.25",
+  "id": "sec179d_base_step",
+  "label": "§179D increment per percentage point ($0.02)",
+  "irs_value": "0.02",
+  "kind": "indexed",
+  "base_amount": "0.02",
+  "base_amount_cite": "§179D(b)(2)",
+  "index_cite": "§179D(g)",
+  "cola_year": 2026,
+  "base_year": "2021",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Amounts in dollars with cents; increase rounded to nearest cent. Tie-break (exact half-cent) not specified. P.L. 119-21 §70507 adds §179D(i): 'This section shall not apply with respect to property the construction of which begins after June 30, 2026.' — does not change indexing.",
+  "quotes": [
+   "For purposes of paragraph (1)(A)(i), the applicable dollar value shall be an amount equal to $0.50 increased (but not above $1.00) by $0.02 for each percentage point by which the total annual energy and power costs for the building are certified to be reduced by a percentage greater than 25 percent.",
+   "In the case of a taxable year beginning after 2022, each dollar amount in subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2021\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence which is not a multiple of 1 cent shall be rounded to the nearest cent."
+  ],
+  "source_files": [
+   "usc/179D.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": ""
+ },
+ {
+  "item": "4.25",
+  "id": "sec179d_pw_value",
+  "label": "§179D increased (prevailing wage/apprenticeship) value ($2.50)",
+  "irs_value": "2.97",
+  "kind": "indexed",
+  "base_amount": "2.50",
+  "base_amount_cite": "§179D(b)(3)(A)",
+  "index_cite": "§179D(g)",
+  "cola_year": 2026,
+  "base_year": "2021",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Amounts in dollars with cents; increase rounded to nearest cent. Tie-break (exact half-cent) not specified. P.L. 119-21 §70507 adds §179D(i): 'This section shall not apply with respect to property the construction of which begins after June 30, 2026.' — does not change indexing.",
+  "quotes": [
+   "In the case of any property which satisfies the requirements of subparagraph (B), paragraph (2) shall be applied by substituting \"$2.50\" for \"$0.50\", \"$.10\" for \"$.02\", and \"$5.00\" for \"$1.00\".",
+   "In the case of a taxable year beginning after 2022, each dollar amount in subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2021\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence which is not a multiple of 1 cent shall be rounded to the nearest cent."
+  ],
+  "source_files": [
+   "usc/179D.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": "The (b)(3)(A) amounts appear only as substitution strings in quotes; IRS treats them as 'dollar amount[s] in subsection (b)' and indexes them (2.97/5.94/0.12)."
+ },
+ {
+  "item": "4.25",
+  "id": "sec179d_pw_cap",
+  "label": "§179D increased cap ($5.00)",
+  "irs_value": "5.94",
+  "kind": "indexed",
+  "base_amount": "5.00",
+  "base_amount_cite": "§179D(b)(3)(A)",
+  "index_cite": "§179D(g)",
+  "cola_year": 2026,
+  "base_year": "2021",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Amounts in dollars with cents; increase rounded to nearest cent. Tie-break (exact half-cent) not specified. P.L. 119-21 §70507 adds §179D(i): 'This section shall not apply with respect to property the construction of which begins after June 30, 2026.' — does not change indexing.",
+  "quotes": [
+   "In the case of any property which satisfies the requirements of subparagraph (B), paragraph (2) shall be applied by substituting \"$2.50\" for \"$0.50\", \"$.10\" for \"$.02\", and \"$5.00\" for \"$1.00\".",
+   "In the case of a taxable year beginning after 2022, each dollar amount in subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2021\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence which is not a multiple of 1 cent shall be rounded to the nearest cent."
+  ],
+  "source_files": [
+   "usc/179D.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": "The (b)(3)(A) amounts appear only as substitution strings in quotes; IRS treats them as 'dollar amount[s] in subsection (b)' and indexes them (2.97/5.94/0.12)."
+ },
+ {
+  "item": "4.25",
+  "id": "sec179d_pw_step",
+  "label": "§179D increased increment per percentage point ($0.10)",
+  "irs_value": "0.12",
+  "kind": "indexed",
+  "base_amount": "0.10",
+  "base_amount_cite": "§179D(b)(3)(A)",
+  "index_cite": "§179D(g)",
+  "cola_year": 2026,
+  "base_year": "2021",
+  "rounding": {
+   "multiple": "0.01",
+   "mode": "nearest",
+   "applies_to": "increase"
+  },
+  "derived_formula": null,
+  "special": "Amounts in dollars with cents; increase rounded to nearest cent. Tie-break (exact half-cent) not specified. P.L. 119-21 §70507 adds §179D(i): 'This section shall not apply with respect to property the construction of which begins after June 30, 2026.' — does not change indexing.",
+  "quotes": [
+   "In the case of any property which satisfies the requirements of subparagraph (B), paragraph (2) shall be applied by substituting \"$2.50\" for \"$0.50\", \"$.10\" for \"$.02\", and \"$5.00\" for \"$1.00\".",
+   "In the case of a taxable year beginning after 2022, each dollar amount in subsection (b) shall be increased by an amount equal to—\n(1) such dollar amount, multiplied by\n(2) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year in which the taxable year begins, determined by substituting \"calendar year 2021\" for \"calendar year 2016\" in subparagraph (A)(ii) thereof.\nAny increase determined under the preceding sentence which is not a multiple of 1 cent shall be rounded to the nearest cent."
+  ],
+  "source_files": [
+   "usc/179D.txt",
+   "plaw-119-21.txt"
+  ],
+  "doubts": "The (b)(3)(A) amounts appear only as substitution strings in quotes; IRS treats them as 'dollar amount[s] in subsection (b)' and indexes them (2.97/5.94/0.12)."
+ }
+]

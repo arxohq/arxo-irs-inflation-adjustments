@@ -1,0 +1,4 @@
+07119073d7e96fadc072f07976a533a5e7aa666ed79fcd85da61b0f772d3ba8f  forecast-2027.json
+531ae3160acfdde9a8117b85fd7426c19a2e5fd8a0786d50815c98cdfdf17372  MANIFEST.sha256
+# закреплено 2026-10-21T11:53:53Z (UTC), до публикации Rev. Proc. на 2027 год; irs-drop rp-26-31 и rp-26-33…60 — 404 на эту дату
+# повтор: python3 -I scripts/make_specs27.py && python3 -I scripts/compute27.py && python3 -I scripts/table27.py — sha256 forecast-2027.json обязан совпасть
