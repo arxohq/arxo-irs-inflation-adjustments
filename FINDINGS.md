@@ -8,8 +8,9 @@ We reconstructed 295 modelled rows covering all 63 items in section 4 of Rev. Pr
 2025-32 (the 2026 inflation-adjusted items), using statutory and administrative sources
 and explicitly identified computational assumptions.
 
-- **Match.** 216 rows match the published figures numerically. 213 of them match without
-  qualification.
+- **Match.** 216 rows match the published figures numerically. The comparison records 213
+  matches, including 16 conditional matches: they depend on a treatment of the missing
+  October 2025 index.
 - **Rounding.** Two amounts cannot result from the statute's rounding rule, whatever
   index value is used. A third group, the long-term care figures, is consistent with the
   same convention.
@@ -17,7 +18,8 @@ and explicitly identified computational assumptions.
   - questions of basis or timing;
   - one amount published for a provision that does not apply;
   - drafting issues in the Code;
-  - errors the IRS has already corrected.
+  - amounts the IRS has since corrected itself; our computation gives the corrected
+    value (section E).
 
 Each finding can be checked in about ten minutes from the cited text and two index values.
 
@@ -212,8 +214,8 @@ The $25 and $50 guidelines of Rev. Proc. 90-12 are published as 5× and 10× of 
   as Announcement 2026-2 states.
 - **October 9 and October 17, 2025 versions.** The October 17 version replaced the
   October 9 version at the same URL without a change note in the document. It added
-  section 2.05 (§42(h)(3)(I)), renumbered the rest of section 2 and changed four figures;
-  for each, our computation equals the October 17 value:
+  section 2.05 (§42(h)(3)(I)), renumbered the rest of section 2 and changed five
+  amounts in four items; for each, our computation equals the October 17 value:
   - EIC completed phaseout, joint, three or more children: $70,224 → **$70,244**;
   - tax at the 24% bracket, married filing separately: $17,996 → **$17,966**;
   - head-of-household 24% bracket ceiling: $201,775 → **$201,750**;
